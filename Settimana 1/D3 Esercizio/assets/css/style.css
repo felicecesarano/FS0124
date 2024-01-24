@@ -1,0 +1,13 @@
+.logo {width: 200px;}
+nav {border-top: solid  yellow;}
+.part {color: #004d4c; padding: 20px; margin: 0; background-color: #ffeb0017;}
+main {width: 50%; margin: auto;}
+h1 {font-size: 2em;}
+.center {text-align: center;}
+.focaccia {border-radius: 10px 10px 10px 10px; width: 100%;}
+h5 {color: #999999;}
+.vertical { border-left:1px solid yellow;color: red;}
+.cyan {border: 1px solid;color: cyan;}
+ul {line-height: 1.5;}
+#borderl {border-left: solid yellow; color: red;} 
+#cyan {border-bottom: solid cyan; border-top: solid cyan;}
