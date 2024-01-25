@@ -1,0 +1,141 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../img/sfondo.png');
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to top, #036D86, #009EC3);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 4px 4px -1px gray;
+    font-weight: bold;
+}
+
+.naviga {
+    text-decoration: none;
+    color: white;
+}
+
+.list1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.naviga::before {
+    content: ' * '
+}
+
+.naviga:hover {
+    color: red;
+}
+
+img {
+    width: 200px;
+    padding-top: 20px;
+}
+
+main {
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 4px -1px gray;
+    padding: 10px;
+}
+
+.mario {
+    color: #A0A0A0;
+    font-size: 0.8em;
+}
+
+code {
+    background-color: #E3E3E3;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.colore {
+    color: #A02571;
+}
+
+table {
+    border-bottom: 1px solid blue;
+    border-collapse: collapse;
+}
+
+th {
+    background-image: linear-gradient(to top, #036D86, #009EC3);
+    font-weight: 400;
+    color: white;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #F3F3F3;
+}
+
+iframe {
+    border-radius: 15px;
+    width: 100%;
+    height: 10em;
+}
+
+.gray {
+    background-color: #E3E3E3;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.novi {
+    text-align: center;
+}
+
+.email {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+input {
+    border: 0;
+}
+
+button {
+    border: 0;
+    background-image: linear-gradient(to top, #036D86, #009EC3);
+    color: white;
+}
+
+.scritte {
+    padding: 20px;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.data {
+    text-align: right;
+    font-size: 0.8em;
+    padding-right: 10px;
+}
+
+.material-symbols-outlined {
+    font-size: 1em;
+}
+
+footer {
+    background: linear-gradient(to bottom, #30393B,#055567);;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 4px 4px -1px gray;
+    font-size: 0.8em;
+}
+.mailto {color: #FF00FF;}

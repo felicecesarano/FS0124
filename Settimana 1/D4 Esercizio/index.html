@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Sviluppo di una pagina web - Blog Epicode</title>
 </head>
@@ -13,34 +20,39 @@
 <body>
     <header> <!--Blocco header che, contiene img e nav-->
         <img src="assets/img/logo.svg" alt="Logo Epicode">
-        <p><strong>Epicode - Il blog dei developers</strong></p>
+        <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
         <nav>
-            <ul>
-                <li><a href="javascript:void(0)">Home</a></li>
-                <li><a href="javascript:void(0)">Articoli</a></li>
-                <li><a href="javascript:void(0)">Job</a></li>
+            <ul class="list1">
+                <li><a href="javascript:void(0)" class="naviga">HOME</a></li>
+                <li><a href="javascript:void(0)" class="naviga">ARTICOLI</a></li>
+                <li><a href="javascript:void(0)" class="naviga">JOB</a></li>
             </ul>
         </nav>
-        <hr>
     </header>
     <main> <!-- Blocco main, che contiene la sezione con i vari articoli all'interno, il video e il form-->
         <Section>
             <article>
                 <h2>Come creare un template per i post</h2>
-                <p>di Mario Rossi - pubblicato il 25-10-2020 </p>
-                <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <b>parti comuni</b>
+                <div class="mario">
+                    <p> <span class="material-symbols-outlined"> edit</span>di Mario Rossi - <span
+                            class="material-symbols-outlined">schedule</span>pubblicato il 25-10-2020
+                    </p>
+                </div>
+                <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <b
+                        class="colore">parti comuni</b>
                     da applicare a tutte le pagine </p>
                 <p>Le varie aree saranno quindi suddivise in:</p>
                 <ul>
                     <li>Contenuti di intestazione del tag <code>&LT;header&gt;</code></li>
-                    <li>Contenuti centrali variabili del tago <code>&lt;main&gt; &lpar;corpo principale&rpar;</code>
+                    <li>Contenuti centrali variabili del tago <code>&lt;main&gt;</code> (corpo principale)
                     </li>
                     <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code></li>
                 </ul>
             </article>
             <article>
                 <h2>Formattazione del codice</h2>
-                <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <b>selezionare con
+                <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <b
+                        class="colore">selezionare con
                         i CSS</b>. Perciò i passi saranno:</p>
                 <ol>
                     <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tago appropriato
@@ -51,7 +63,7 @@
                 <p>L'applicazione di stili CSS è conosciuta negli anni fino a raggiungere la diffusione pressochè
                     totale.</p>
                 <table>
-                    <caption>Diffusione dei CSS</caption>
+                    <caption><i>Diffusione dei CSS</i></caption>
                     <thead>
                         <tr>
                             <th>Anno</th>
@@ -96,33 +108,49 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </article>
-            <article>
-                <h2>Novità</h2>
-                <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
-                <form onsubmit="alert ('Iscrizione avvenuta!')">
-                    <fieldset>
+            <article class="gray">
+                <h2 class="novi">Novità</h2>
+                <div class="email">
+                    <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+                    <form onsubmit="alert ('Iscrizione avvenuta!')">
                         <input type="email" name="email" id="email" placeholder="inserisci l'email" required>
                         <button type="submit">Iscriviti!</button>
-                    </fieldset>
-                </form>
+                    </form>
+                </div>
             </article>
         </Section>
         <aside>
-            <h2>Articoli correlati</h2>
-            <a href="javascript:void(0)">Validare il codice HTML</a>
-            <p>Categoria: develop <br> <br>Data: 18-9-2020</p>
-            <a href="javascript:void(0)">Correggere la sintassi</a>
-            <p>Categoria: develop <br><br>Data: 16-9-2020</p>
-            <a href="javascript:void(0)">Meno Kb nella pagina</a>
-            <p>Categoria: ottimizzazione <br><br> Data: 30-9-2020</p>
+            <h2 class="novi">Articoli correlati</h2>
+            <div class="gray">
+                <p class="scritte"><a href="javascript:void(0)">Validare il codice HTML</a><br>
+                    <span class="material-symbols-outlined">sell</span>Categoria: develop
+                </p>
+                <p class="data"><span class="material-symbols-outlined">
+                        calendar_month
+                    </span> Data: 18-9-2020</p>
+            </div>
+            <div class="gray">
+                <p class="scritte"><a href="javascript:void(0)">Correggere la sintassi</a><br>
+                    <span class="material-symbols-outlined">sell</span>Categoria: develop
+                </p>
+                <p class="data"><span class="material-symbols-outlined">
+                        calendar_month
+                    </span> Data: 16-9-2020</p>
+            </div>
+            <div class="gray">
+                <p class="scritte"><a href="javascript:void(0)">Meno Kb nella pagina</a><br>
+                    <span class="material-symbols-outlined">sell</span>Categoria: ottimizzazione
+                </p>
+                <p class="data"><span class="material-symbols-outlined">
+                        calendar_month
+                    </span> Data: 30-9-2020</p>
+            </div>
         </aside>
     </main>
-    <hr>
     <footer> <!--Blocco Footer-->
         <p>Blog Epicode &copy;2021</p>
-        <em>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA
-            00112233. <a href="mailto:info@epicode.school">info@epicode.school</a></em>
+        <address>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA
+            00112233.<a href="mailto:info@epicode.school" class="mailto">info@epicode.school</a></address>
     </footer>
 </body>
-
 </html>
