@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+.logo {
+    width: 120px;
+    padding: 20px;
+}
+nav, .cita, .copy, aside, .schede, .contatti {
+    text-align: center;
+}
+nav {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 23vh;
+    margin-bottom: 20px;
+}
+
+h1 {
+    padding-left: 14vh;
+    padding-right: 14vh;
+    line-height: 1;
+}
+
+.sotto {
+    padding-left: 25vh;
+    padding-right: 25vh;
+}
+
+h1,
+h5 {
+    color: #25a2c3;
+}
+
+h1,
+h2,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h2,
+h5 {
+    line-height: 1.5;
+}
+
+.partiamo {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+h5,
+.mario {
+    margin-bottom: 0;
+}
+
+section {
+    width: 75%;
+    margin: 0 auto;
+}
+
+article {
+    display: inline-block;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.cerchio {
+    border-radius: 50%;
+    width: 550px;
+}
+
+.testo {
+    width: 43%;
+    padding-left: 7vh;
+}
+
+.cerchio,
+.pscheda {
+    padding-top: 10px;
+}
+
+.cita {
+    background-color: #e22d0e;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    border: 0;
+}
+
+.pscheda,
+footer {
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+}
+
+cite {
+    font-size: 1.2em;
+}
+
+.ceo {
+    font-size: 0.7em;
+}
+
+aside {
+    margin-top: 7vh;
+}
+
+.ceo,
+.pscheda {
+    margin-top: 0;
+}
+
+.schede {
+    width: 20%;
+    border: 1px solid #dee1e3;
+    border-radius: 0px 0px 4px 4px;
+    display: inline-block;
+    font-size: 0.7em;
+    margin: 30px;
+}
+
+.imgschede {
+    width: 100%;
+    height: 250px;
+}
+
+
+footer {
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    padding-bottom: 30px;
+    margin-top: 10vh;
+}
+
+.link,
+.via,
+.copy {
+    color: #c8e7f0;
+    font-size: 0.7em;
+}
+
+.material-symbols-outlined {
+    font-size: 0.8em;
+}
+
+.contatti {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.cont {
+    width: 15%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1;
+}
+.pix {
+    color: #c8e7f0;
+}
