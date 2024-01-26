@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+}
+
+.logo {
+    width: 120px;
+    padding: 30px;
+}
+
+nav {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+
+h1,
+h5 {
+    color: #25a2c3;
+}
+
+h1,
+h2,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.partiamo {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+h5, .mario {
+    margin-bottom: 0;
+}
+
+article {
+    padding: 30px;
+}
+
+.cerchio {
+    border-radius: 50%;
+    width: 350px;
+}
+
+.cerchio,
+.pscheda {
+    padding-top: 10px;
+}
+
+.cita {
+    background-color: #e22d0e;
+    color: white;
+    margin-bottom: 15vh;
+}
+
+.cita,
+.pscheda, footer {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.9em;
+    color: white;
+}
+
+.ceo {
+    font-size: 0.7em;
+}
+
+.ceo,
+.pscheda {
+    margin-top: 0;
+}
+
+div {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90%;
+    border: 1px solid #dee1e3;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.imgschede {
+    width: 100%;
+}
+.scheda2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+footer {
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    padding-bottom: 30px;
+    margin-top: 15vh;
+}
+.link {
+    color:#c8e7f0;
+}
+.material-symbols-outlined {
+    font-size: 0.8em;
+}
+.contatti {
+    margin-bottom: 10px;
+}
+hr {
+   width: 50%; 
+   margin-top: 25px; 
+   margin-bottom: 25px;
+}
