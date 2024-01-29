@@ -17,7 +17,7 @@ REGOLE
 - NUMBER contiene un numero intero o decimale. Il decimale si esprime con il punto.
 - BOOLEAN afferma se una condizione è vera o falsa.
 - NULL segnala l'assenza intezionale di un dato. Per esempio il mancato inserimento dell'email in un form.
-- UNDEFINED afferma che la variabile indicata non ha un valore assegnato.
+- UNDEFINED afferma che la variabile indicata non ha un valore assegnato. */
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -50,6 +50,10 @@ console.log(x);
 /* SCRIVI QUI LA TUA RISPOSTA */
 myName = 'Cesarano';
 console.log(myName);
+
+/* const nome1 = 'Vincenzo';
+nome1 = 'Mario';
+console.log(nome1) */
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
