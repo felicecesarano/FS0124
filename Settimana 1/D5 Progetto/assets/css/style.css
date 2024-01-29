@@ -29,7 +29,6 @@ nav {
 h1 {
     padding-left: 14vh;
     padding-right: 14vh;
-    line-height: 1;
 }
 
 .sotto {
@@ -47,11 +46,6 @@ h2,
 h5 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-}
-
-h2,
-h5 {
-    line-height: 1.5;
 }
 
 .partiamo {
