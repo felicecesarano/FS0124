@@ -4,8 +4,8 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let num1 = 54
-let num2 = 40
+let num1 = 54;
+let num2 = 40;
 
 if (num1 > num2){
   console.log(num1);
@@ -19,10 +19,12 @@ if (num1 > num2){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let numero = 10;
+let numero = 5;
 if (numero != 5){
-  console.log('not equal')
-};
+  console.log('not equal');
+}else {
+  console.log('equal')
+}
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
