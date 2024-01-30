@@ -99,6 +99,11 @@ if (sconto < 50){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const number = [10,11,12]
+number.sort();
+number.reverse();
+console.log(number)
+
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
