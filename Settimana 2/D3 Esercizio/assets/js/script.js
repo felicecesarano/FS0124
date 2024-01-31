@@ -173,7 +173,7 @@ let crewMass = 0;
 let i = 0;
 while (i < starWarsCharacters.length) {
   crewMass += starWarsCharacters[i].mass;
-   i++;
+  i++;
 }
 console.log(crewMass)
 
@@ -199,7 +199,7 @@ if (crewMass < 500) {
   console.log('Critical Load: Over 900');
 } else {
   console.log('DANGER! OVERLOAD ALERT: escape from ship now!');
-} 
+}
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
 */
@@ -215,6 +215,18 @@ console.log(starWarsCharacters)
   Una volta fatto crea un console.log per controllare la proprietà length di "charactersNames" prima e dopo l'operazione.
 */
 
+console.log(charactersNames);
+
+for (let i = 0; i < charactersNames.length; i++) {
+  for (let j = 0; j < femaleCharacters.length; j++) {
+    if (femaleCharacters[j].name === charactersNames[i]) {
+      charactersNames.splice(i, 1);
+    }
+  }
+}
+ console.log(charactersNames)
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
+const indiceRandom = Math.floor(Math.random() * starWarsCharacters.length);
+console.log('Il personaggio si chiama ' + starWarsCharacters[indiceRandom].name + ', è alto ' + starWarsCharacters[indiceRandom].height + ', pesa ' + starWarsCharacters[indiceRandom].mass);
