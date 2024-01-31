@@ -99,10 +99,19 @@ if (sconto < 50){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const number = [10,11,12]
-number.sort();
-number.reverse();
-console.log(number)
+let x = 100
+let y = 200
+let z = 300
+
+if (x > z && z > y){
+  console.log(x,z,y);
+}else if (z > x && x > y){
+  console.log(z,x,y);
+}else if (y > x && x > z){
+  console.log(y,x,z)
+}else {
+  console.log(x,y,z);
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
