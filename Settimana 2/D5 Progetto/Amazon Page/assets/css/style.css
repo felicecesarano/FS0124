@@ -1,1 +1,140 @@
-/* Your styles here */
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E9EDEE;
+}
+
+html,
+body,
+.find {
+    margin: 0;
+}
+
+#inizio,
+.fine {
+    background-color: #222F3F;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo,
+nav,
+.back {
+    padding: 10px 0px 10px 20px;
+}
+
+nav,
+.back {
+    background-color: #36475B;
+}
+
+nav {
+    word-spacing: 1em;
+}
+
+a,
+.shop {
+    text-decoration: none;
+}
+
+a {
+    font-size: 1.2em;
+}
+
+main,
+#gift {
+    margin: 25px;
+}
+
+a,
+#gift,
+#fristArt,
+.top {
+    color: white;
+}
+
+#gift,
+#fristArt,
+#thirdArt,
+.back,
+.fine,
+#contein {
+    text-align: center;
+}
+
+#gift {
+    background-color: #F56600;
+}
+
+h4 {
+    padding: 5px;
+}
+
+#fristArt,
+.find {
+    font-size: 1.5em;
+}
+
+#fristArt {
+    background-image: url(../images/bg-image.png);
+    background-size: contain;
+    padding: 35px;
+}
+
+h1 {
+    margin-top: 35px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#secondArt,
+.vr {
+    margin-top: 40px;
+    width: 100%;
+}
+
+#secondArt {
+    background-color: white;
+}
+
+.shop {
+    color: #22a6b1;
+    font-size: 0.7em;
+    font-weight: 800;
+}
+
+.find {
+    padding-left: 5vh;
+    padding-top: 20px;
+}
+
+.foto {
+    display: inline-block;
+}
+
+#contein {
+    margin: 0 auto;
+}
+
+.scheda {
+    border-radius: 20px;
+    width: 45vh;
+    height: 54vh;
+    box-shadow: 0px 2px 2px 1px gray;
+    margin: 19px;
+}
+
+.top {
+    text-decoration: underline;
+}
+
+.logo2 {
+    width: 200px;
+    padding: 7vh;
+}
