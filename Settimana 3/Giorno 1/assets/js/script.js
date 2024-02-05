@@ -30,12 +30,9 @@ changePcontent()
 */
 
 const changeUrls = function () {
-    const url = document.querySelectorAll('a');
+    const url = document.querySelectorAll('a:not(footer a');
     for (let i = 0; i < url.length; i++) {
-        const footer = url[i].closest('footer');
-        if (!footer) {
-            url[i].href = 'https://www.google.com/'
-        }
+        url[i].href = 'https://www.google.com/'
     }
 };
 changeUrls()
@@ -43,7 +40,7 @@ changeUrls()
  Scrivi una funzione che aggiunga un nuovo elemento lista alla seconda lista non ordinata
 */
 
-const addToTheSecond = function () { 
+const addToTheSecond = function () {
     const seconda = document.getElementById('secondList');
     const nuovoLi = document.createElement('li');
     nuovoLi.textContent = 'Elemento aggiunto';
@@ -60,7 +57,7 @@ const addParagraph = function () {
     let p = document.createElement('p');
     p.textContent = 'Paragrafo aggiunto al primo div';
     primoDiv.appendChild(p);
- }
+}
 addParagraph();
 /* ESERCIZIO 7
  Scrivi una funzione che faccia scomparire la prima lista non ordinata
@@ -68,25 +65,34 @@ addParagraph();
 
 const hideFirstUl = function () {
     document.getElementById('firstList').style.display = 'none';
- }
- hideFirstUl();
+}
+hideFirstUl();
 
 /* ESERCIZIO 8 
  Scrivi una funzione che renda verde il background di ogni lista non ordinata
 */
 
 const paintItGreen = function () {
- let list = document.querySelectorAll('ul');
-for (let i = 0; i < list.length; i++) {
-list[i].style.backgroundColor = 'green'
+    let list = document.querySelectorAll('ul');
+    for (let i = 0; i < list.length; i++) {
+        list[i].style.backgroundColor = 'green'
+    }
 }
- }
- paintItGreen();
+paintItGreen();
 
 /* ESERCIZIO 9
  Scrivi una funzione che rimuova l'ultima lettera dall'h1 ogni volta che l'utente lo clicca
 */
 
+const makeItClickable = function () {
+    document.querySelector('h1').addEventListener('click', function () {
+        let h1 = this.textContent;
+        if (h1.length > 0) {
+            let dopoClick = h1.slice(0, -1);
+            this.textContent = dopoClick;
+        }
+    })
+}
 
 makeItClickable()
 /* ESERCIZIO 10
