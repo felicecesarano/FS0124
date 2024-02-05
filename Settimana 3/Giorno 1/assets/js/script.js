@@ -55,7 +55,7 @@ addToTheSecond();
 const addParagraph = function () {
     let primoDiv = document.querySelector('div')
     let p = document.createElement('p');
-    p.textContent = 'Paragrafo aggiunto al primo div';
+    p.innerText = 'Paragrafo aggiunto al primo div';
     primoDiv.appendChild(p);
 }
 addParagraph();
@@ -99,14 +99,24 @@ makeItClickable()
  Crea una funzione che, al click sul footer, riveli l'URL del link interno come contenuto di un alert()
 */
 
-const revealFooterLink = function () { }
-
+const revealFooterLink = function () { 
+    const footer = document.querySelector('footer');
+    footer.style.cursor = 'pointer';
+    footer.addEventListener('click', function () { 
+      const footerLink = document.querySelector('footer a');
+    const footerurl = footerLink.getAttribute('href');
+    alert(footerurl);  
+    })
+    
+}
+revealFooterLink();
 /* ESERCIZIO 11
  Crea una funzione che crei una tabella nell'elemento con id "tableArea". 
  La tabella avrà 5 elementi e questa struttura: immagine, nome prodotto, quantità, prezzo
 */
 
-const generateTable = function () { }
+const generateTable = function () {}
+
 
 /* ESERCIZIO 12
  Crea una funzione che aggiunga una riga alla tabella precedentemente creata e fornisca i dati necessari come parametri
