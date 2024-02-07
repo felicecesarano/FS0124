@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>ESERCIZIO D3 SETTIMANA 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>ESERCIZIO D3 SETTIMANA 3</title>
 </head>
 <body>
-    <div class="form">
-        <h1>Promemoria</h1>
-        <div id="aggiungere">
-          <input type="text" id="ricordare" placeholder="Cosa vuoi ricordare?">
-          <button type="submit" id="btn">Aggiungi</button>
-          <ul id="lista"></ul>
-        </div>
-      </div>
-
-    <script src="assets/js/script.js"></script>
+  <div class="contenitore">
+    <h1>Promemoria</h1>
+    <input type="text" id="ricordare" placeholder="Cosa vuoi ricordare?" required>
+    <button type="button" id="btn">Aggiungi</button>
+  </div>
+  <hr>
+  <div class="contenitore">
+    <h2>ELENCO</h2>
+    <div>
+      <ul id="lista"></ul>
+    </div>
+  </div>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
