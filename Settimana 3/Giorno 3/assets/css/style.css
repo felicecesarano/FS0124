@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    padding: 200px;
+    background-color: blueviolet;
+}
+
+.form {
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
