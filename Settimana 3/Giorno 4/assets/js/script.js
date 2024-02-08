@@ -1,7 +1,8 @@
 const tab = document.getElementById('tab');
 const btn = document.getElementById('btn');
-const lista = document.getElementById('lista');
+const uscita = document.getElementById('uscita');
 let ultimoNumero; 
+const usciti = [];
 
 function griglia() {
     for (let i = 0; i < 90; i++) {
@@ -15,25 +16,31 @@ griglia();
 
 btn.addEventListener('click', function (e) {
     e.preventDefault();
-    const estrai = generaN(); 
-    evidenzia(estrai);
-    giaEstratti();
+   generaN(); 
+   evidenzia();
 });
 
 const generaN = () => {
     let numero = Math.floor(Math.random() * 90) + 1;
-    const li = document.createElement('li');
-    li.textContent = numero;
-    lista.appendChild(li);
-    ultimoNumero = numero; 
-    return numero; 
+    let trovato = usciti.indexOf(numero)
+    if (trovato != -1){
+        if (usciti.length < 90){
+             generaN();
+        } else{
+            uscita.innerText = 'Numeri terminati';
+        }
+    }else {
+        ultimoNumero = numero;
+    uscita.innerText = `E' uscito il numero ${numero}`;
+    usciti.push(ultimoNumero);
+    }   
 };
 
-const evidenzia = (estrai) => {
-    const estratti = document.querySelectorAll('.griglia');
-    estratti.forEach((element) => {
-        if (parseInt(element.textContent) === estrai) { 
-            element.classList.add('estratto');
+const evidenzia = () => {
+    const numeri = document.querySelectorAll('.griglia');
+    for (let i = 0; i < numeri.length; i++) {
+        if (parseInt(numeri[i].textContent) === ultimoNumero) {
+            numeri[i].classList.add('estratto');
         }
-    });
-};
+    }
+}
