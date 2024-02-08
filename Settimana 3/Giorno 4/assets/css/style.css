@@ -1,0 +1,27 @@
+body {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#contenitore {
+    width: 50%;
+    margin: 0 auto;
+}
+.griglia { 
+    font-size: 2em;
+    display: inline-block;
+    border: 1px solid #ddd;
+    width: 10%;
+}
+
+.estratto {
+    background-color: yellow;
+}
+
+#btn {
+   width: 200px;
+   height: 30px;
+}
