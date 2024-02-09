@@ -1,0 +1,22 @@
+body{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 220px;
+    background-color: black;
+}
+
+#tabella {
+    border: 1px solid #C0C0C0;
+    margin: 0 auto;
+width: 20%;
+height: 20%;
+}
+
+.test {
+background-color:#013220;
+}
+
+a {
+    color: white;
+}
