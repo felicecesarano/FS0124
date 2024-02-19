@@ -220,17 +220,17 @@ header p{
     .email button, .email  input{
         padding: 15px;
     }
-    .email button{
+    .email button, #container, aside{
         width: 100px;
     }
-#container {
-    width: 100%;
-}
-aside {
-    width: 100%;
-}
 aside div {
     display: inline-block;
     width: 33.15%;   
 }
+}
+
+@media print {
+    header, #container, aside, footer {
+        display: none;
+    }
 }
