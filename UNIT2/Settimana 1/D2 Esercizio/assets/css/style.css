@@ -55,6 +55,7 @@ header {
     background-color: rgba(187, 186, 186, 0.5);
     border: 2px solid white;
     border-radius: 5px;
+    padding: 0px 5px 0px 5px;
 }
 
 #icon {
@@ -205,8 +206,7 @@ float: right;
     font-size: 0.8em;
     padding-right: 10px;
 }
-
-.material-symbols-outlined {
+.data span {
     font-size: 1em;
 }
 
