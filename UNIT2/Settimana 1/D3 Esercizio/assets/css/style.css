@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #732104;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 20px;
+    background-color: #FEF7E2;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav ul li:first-child {
+display: flex;
+width: 100%;
+justify-content: center;
+}
+
+nav ul li:not(:first-child){
+    width: 35%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-inline-start: 0;
+   
+}
+
+nav li {
+    padding: 20px;
+    font-weight: bold;
+}
+
+nav li:nth-child(2), nav li:nth-child(3), nav li:nth-child(1)  {
+    margin-bottom: 10px;
+}
+
+nav img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+nav ul li{
+    background-color: #FFDF7F;
+    border-radius: 100px;
+    text-align: center;
+}
+
+#titolo {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#schede {
+    margin: 20px;
+    background-color: #FEF7E2;
+    border-radius: 30px;
+}
+
+#schede img {
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+#schede div {
+    text-align: center;
+}
+
+#scritte div p, #scritte div h3 {
+margin: 0;
+}
+
+#scritte {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+#scritte h4 {
+    background-color: #FFDF7F;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+#scritte >* {
+    width: 41%;
+}
+
+#kg {
+    width: 19%;
+}
