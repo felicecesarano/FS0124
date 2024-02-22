@@ -25,15 +25,10 @@ main {
 .parole i {
     position: absolute;
     top: 42px;
+    margin-left: 5px;
+    opacity: 0;
     animation: cambioTesto 6s ease-in-out infinite 0s;
 }
-
-.parole i:nth-child(1),
-.parole i:nth-child(2),
-.parole i:nth-child(3) {
-    margin-left: 5px;
-}
-
 
 .parole i:nth-child(1) {
     color: #6A889C;
