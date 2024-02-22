@@ -104,7 +104,7 @@ nav ul li {
 .kg {
     width: 19%;
     margin-top: 0;
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 aside {
@@ -193,11 +193,13 @@ aside {
         margin: 13px;
     }
 
-    .scritte, #titolo {
+    .scritte,
+    #titolo {
         width: 100%;
     }
 
-    .scritte div p, .schede h3 {
+    .scritte div p,
+    .schede h3 {
         width: 132px;
     }
 
@@ -212,5 +214,38 @@ aside {
     #h2 {
         width: 100%;
         text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    body, nav ul {
+        display: flex;
+    }
+
+    header {
+        order:1;
+    }
+
+main {
+    order: 2;
+}
+aside {
+    order: 3;
+}
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li:nth-child(2), nav li:nth-child(3) {
+        order: initial; 
+    }
+    
+
+    nav ul li:not(:first-child) {
+        padding:35px;
+    }
+    nav li  {
+        margin-bottom: 10px;
     }
 }
