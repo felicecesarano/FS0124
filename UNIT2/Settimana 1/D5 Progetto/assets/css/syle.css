@@ -1,3 +1,5 @@
+/* VISUALIZZARE A 1500px */
+
 body {
     margin: 0;
     padding: 0;
@@ -15,11 +17,12 @@ nav {
     background-color: #ffc017;
 }
 
-nav{
+nav {
     transition: background-color 0.5s ease;
 }
+
 .nav-scroll {
- background-color: white;
+    background-color: white;
 }
 
 nav {
@@ -31,9 +34,9 @@ nav {
     margin-top: -93px;
     z-index: 1000;
 }
+
 nav,
-nav
-ul {
+nav ul {
     display: flex;
     list-style-type: none;
     font-size: 0.8em;
@@ -105,14 +108,11 @@ h1 {
 
 .section1 {
     display: flex;
-    width: 65%;
+    width: 68%;
     flex-direction: column;
     margin: 0 auto;
 }
 
-.news3 {
-    height: 115px;
-}
 
 .news {
     display: flex;
@@ -207,12 +207,13 @@ h1 {
 /* Section2 */
 
 .section2 {
-    width: 65%;
+    width: 68%;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 30px;
 }
 
-.container3{
+.container3 {
     width: 387px;
     display: flex;
 }
@@ -228,14 +229,16 @@ h1 {
     border-radius: 100%;
     margin-right: 10px;
 }
-.container3 h2, .container3 p {
+
+.container3 h2,
+.container3 p {
     margin: 0;
     margin-bottom: 10px;
 }
 
-.paragrafo{
-width: 373px;
-font-size: 13px;
+.paragrafo {
+    width: 373px;
+    font-size: 13px;
 }
 
 .container3 h2 {
@@ -277,7 +280,7 @@ font-size: 13px;
 }
 
 .container3:not(:first-child) {
-margin-top: 50px;
+    margin-top: 50px;
 }
 
 .containerList {
@@ -306,10 +309,10 @@ margin-top: 50px;
 
 
 .firstList li {
-border: 1px solid #F2F2F2;
-padding: 5px;
-border-radius: 3px;
-margin: 0 5px 5px 0;
+    border: 1px solid #F2F2F2;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 5px 5px 0;
 }
 
 .firstList {
@@ -317,38 +320,64 @@ margin: 0 5px 5px 0;
     padding-bottom: 20px;
 }
 
-.secondList li{
-   margin-right: 10px;
-   margin-bottom: 5px;
+.secondList li {
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 
-@media screen and (max-width: 768px){
-    #titolo h1 {
+@media screen and (max-width: 768px) {
+    .main {
+        height: 330px;
+    }
+
+    .scritte h1 {
         font-size: 4em;
     }
+
     #titolo h3 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
+
     #titolo p {
         font-size: 1em;
         padding: 10px 20px;
     }
-.scritte {
-    margin-right: 0;
-    margin-left: 60px;
-}
 
-.section1 {
-    width: 83%;
-    flex-wrap: wrap;
-}
-.section2 {
-    width: 83%;
-    flex-direction: column-reverse;
-}
-.containerList {
-    display: block;
-}
+    .scritte {
+        margin-right: 0;
+        margin-left: 60px;
+    }
 
+    .section1 {
+        width: 85%;
+    }
+
+    .section2 {
+        width: 85%;
+        flex-direction: column-reverse;
+
+    }
+
+    .news {
+        margin-top: 8px;
+    }
+
+    .trending {
+        margin-top: 30px;
+    }
+
+    .containerList {
+        margin-left: 0;
+        height: 140px;
+        position: static;
+    }
+    .svg {
+        position: relative;
+        right: 62px;
+    }
+svg {
+    width: 120% !important;
+    height: 115% !important;
+}
 }
