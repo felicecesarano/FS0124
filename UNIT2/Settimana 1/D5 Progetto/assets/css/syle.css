@@ -7,23 +7,29 @@ body {
 /* BLOCCO HEADER */
 header {
     border-bottom: 1px solid black;
+    margin-top: 92px;
 }
-
 
 header,
 nav {
     background-color: #ffc017;
 }
-.nav {
-display: flex;
-width: 70%;
-justify-content: space-between;
+
+nav{
+    transition: background-color 0.5s ease;
+}
+.nav-scroll {
+ background-color: white;
 }
 
 nav {
     border-bottom: 1px solid black;
-    padding: 20px;
-    justify-content: center;
+    padding: 20px 0;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    margin-top: -93px;
+    z-index: 1000;
 }
 nav,
 nav
@@ -35,13 +41,18 @@ ul {
 
 }
 
+.liColor {
+    background-color: #1a8917 !important;
+}
 
-nav ul li:last-child {
+#lastLi {
     background-color: #191919;
     color: white;
     border-radius: 50px;
     padding: 10px;
 }
+
+
 
 li {
     margin-right: 25px;
@@ -53,9 +64,7 @@ li {
     width: 100%;
 }
 
-svg {
-    float: right;
-}
+
 
 #titolo h3 {
     width: 450px;
@@ -268,9 +277,13 @@ margin-top: 50px;
 }
 
 .containerList {
+    position: sticky;
+    top: 140px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
+    height: 200px;
+    z-index: 100; /* Aggiungi questa riga */
 }
 
 .containerList h3 {
