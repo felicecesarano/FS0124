@@ -50,9 +50,8 @@ ul {
     color: white;
     border-radius: 50px;
     padding: 10px;
+    margin-right: 0;
 }
-
-
 
 li {
     margin-right: 25px;
@@ -118,19 +117,22 @@ h1 {
 .news {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     width: 293px;
+    margin-top: 5px;
 }
 
 .container {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    height: 96px;
+    height: 200px;
+    flex-wrap: wrap;
 }
 
 .container2 {
     display: flex;
+    width: 286px;
 }
 
 .news div:first-child p {
@@ -180,7 +182,7 @@ h1 {
 }
 
 .news div:first-child p {
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 600;
 }
 
@@ -198,7 +200,7 @@ h1 {
 
 
 .news h2 {
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 0;
 }
 
@@ -212,9 +214,12 @@ h1 {
 
 .container3{
     width: 387px;
-}
-.container3 div {
     display: flex;
+}
+
+.img200 img {
+    width: 184px;
+    margin-left: 40px;
 }
 
 .container3 div:first-child img {
@@ -244,9 +249,20 @@ font-size: 13px;
 }
 
 .data {
+    display: flex;
     align-items: center;
     font-size: 13px;
     justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.data div {
+    display: flex;
+    align-items: center;
 }
 
 .data span {
@@ -264,26 +280,14 @@ font-size: 13px;
 margin-top: 50px;
 }
 
-.containerImg {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 30px;
-}
-
-.containerImg img {
-    width: 200px;
-    margin-bottom: 43px;
-}
-
 .containerList {
     position: sticky;
     top: 140px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
+    margin-left: 345px;
     height: 200px;
-    z-index: 100; /* Aggiungi questa riga */
+    z-index: 100;
 }
 
 .containerList h3 {
@@ -318,3 +322,33 @@ margin: 0 5px 5px 0;
    margin-bottom: 5px;
 }
 
+
+@media screen and (max-width: 768px){
+    #titolo h1 {
+        font-size: 4em;
+    }
+    #titolo h3 {
+        font-size: 1.2em;
+    }
+    #titolo p {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+.scritte {
+    margin-right: 0;
+    margin-left: 60px;
+}
+
+.section1 {
+    width: 83%;
+    flex-wrap: wrap;
+}
+.section2 {
+    width: 83%;
+    flex-direction: column-reverse;
+}
+.containerList {
+    display: block;
+}
+
+}
