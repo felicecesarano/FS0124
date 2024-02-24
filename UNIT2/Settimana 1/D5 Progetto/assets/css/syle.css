@@ -6,15 +6,16 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
 /* BLOCCO HEADER */
 header {
-    border-bottom: 1px solid black;
     margin-top: 92px;
 }
 
 header,
 nav {
     background-color: #ffc017;
+    border-bottom: 1px solid black;
 }
 
 nav {
@@ -26,13 +27,16 @@ nav {
 }
 
 nav {
-    border-bottom: 1px solid black;
     padding: 20px 0;
     justify-content: space-around;
-    width: 100%;
     position: fixed;
     margin-top: -93px;
     z-index: 1000;
+}
+
+nav,
+#titolo {
+    width: 100%;
 }
 
 nav,
@@ -41,17 +45,20 @@ nav ul {
     list-style-type: none;
     font-size: 0.8em;
     align-items: center;
-
 }
 
 .liColor {
     background-color: #1a8917 !important;
 }
 
+#titolo p,
 #lastLi {
     background-color: #191919;
     color: white;
     border-radius: 50px;
+}
+
+#lastLi {
     padding: 10px;
     margin-right: 0;
 }
@@ -63,28 +70,25 @@ li {
 #titolo {
     display: flex;
     justify-content: end;
-    width: 100%;
 }
-
-
 
 #titolo h3 {
     width: 450px;
-    font-weight: 400;
     margin-top: 0;
     margin-bottom: 40px;
     font-size: 24px;
 }
 
+#titolo h3,
+h1 {
+    font-weight: 400;
+}
+
 #titolo p {
-    background-color: #191919;
-    color: white;
     width: 150px;
-    border-radius: 50px;
     padding: 10px 40px;
     font-size: 20px;
     text-align: center;
-
 }
 
 .scritte {
@@ -93,12 +97,11 @@ li {
 
 h1 {
     font-family: "Spectral", serif;
-    font-weight: 400;
     font-size: 106px;
     margin-bottom: 0;
 }
 
-/* BLOCCO MAIN */
+/* SECTION 1 */
 
 .main {
     border-bottom: 1px solid #F2F2F2;
@@ -119,7 +122,7 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     width: 293px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .container {
@@ -135,7 +138,8 @@ h1 {
     width: 286px;
 }
 
-.news div:first-child p {
+.news div:first-child p,
+.news div:last-child p {
     margin: 0;
 }
 
@@ -145,6 +149,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+.news div:first-child p {
+    font-size: 10px;
+    font-weight: 600;
+}
 
 .number {
     display: flex;
@@ -167,24 +175,21 @@ h1 {
     margin-right: 20px;
 }
 
-.img1 img {
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    margin-right: 10px;
-}
-
+.img1 img,
 .img2 img {
     width: 20px;
     height: 20px;
-    border-radius: 3px;
     margin-right: 10px;
 }
 
-.news div:first-child p {
-    font-size: 10px;
-    font-weight: 600;
+.img1 img {
+    border-radius: 100%;
 }
+
+.img2 img {
+    border-radius: 3px;
+}
+
 
 .news div:last-child {
     display: flex;
@@ -194,7 +199,6 @@ h1 {
 .news div:last-child p {
     font-weight: 400;
     font-size: 13px;
-    margin: 0;
     margin-right: 3px;
 }
 
@@ -223,22 +227,38 @@ h1 {
     margin-left: 40px;
 }
 
+.container3 div:first-child img,
+.data span,
+.secondList li {
+    margin-right: 10px;
+}
+
 .container3 div:first-child img {
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    margin-right: 10px;
+}
+
+.container3 h2,
+.container3 p,
+.container3 h3,
+.data div p {
+    margin: 0;
 }
 
 .container3 h2,
 .container3 p {
-    margin: 0;
     margin-bottom: 10px;
+}
+
+.paragrafo,
+.container3 h3,
+.data {
+    font-size: 13px;
 }
 
 .paragrafo {
     width: 373px;
-    font-size: 13px;
 }
 
 .container3 h2 {
@@ -246,15 +266,9 @@ h1 {
     margin-top: 10px;
 }
 
-.container3 h3 {
-    font-size: 13px;
-    margin: 0;
-}
-
 .data {
     display: flex;
     align-items: center;
-    font-size: 13px;
     justify-content: space-between;
 }
 
@@ -269,15 +283,11 @@ h1 {
 }
 
 .data span {
-    margin-right: 10px;
     background-color: #F2F2F2;
     border-radius: 50px;
     padding: 0 7px;
 }
 
-.data div p {
-    margin: 0;
-}
 
 .container3:not(:first-child) {
     margin-top: 50px;
@@ -321,63 +331,57 @@ h1 {
 }
 
 .secondList li {
-    margin-right: 10px;
     margin-bottom: 5px;
 }
+
 
 
 @media screen and (max-width: 768px) {
     .main {
         height: 330px;
     }
-
+    
     .scritte h1 {
         font-size: 4em;
     }
-
-    #titolo h3 {
+    
+    #titolo h3, #titolo p {
         font-size: 1em;
     }
-
+    
     #titolo p {
-        font-size: 1em;
         padding: 10px 20px;
     }
-
+    
     .scritte {
         margin-right: 0;
         margin-left: 60px;
     }
-
-    .section1 {
+    
+    .section1, .section2 {
         width: 85%;
     }
-
+    
     .section2 {
-        width: 85%;
         flex-direction: column-reverse;
-
+    
     }
-
-    .news {
-        margin-top: 8px;
-    }
-
+    
     .trending {
         margin-top: 30px;
     }
-
+    
     .containerList {
         margin-left: 0;
         height: 140px;
         position: static;
     }
-
+    
     .svg {
         position: relative;
         right: 62px;
     }
-
+    
     svg {
         width: 120% !important;
         height: 115% !important;
@@ -387,100 +391,95 @@ h1 {
 @media screen and (max-width: 576px) {
     .main {
         height: 600px;
-        width: 98%;
-        margin: 10px;
         padding-bottom: 0;
         margin-bottom: 40px;
     }
-
-    #titolo {
-        justify-content: flex-start;
-        margin-bottom: 50px;
-    }
-
-    nav {
-        justify-content: space-between;
-    }
-
-    nav img {
-        margin-left: 10px;
-    }
-
-    nav ul {
-        margin-right: 10px;
-    }
-
-    nav ul li:nth-child(1),nav ul li:nth-child(2),nav ul li:nth-child(3){
-        display: none;
-    }
-
-    .news h2 {
-        width: 380px;
-    }
-
-    .section1 {
-        width: 100%;
-    }
-
-    .container2 {
-        width: 100%;
-    }
-
+    
+    .main,
     .section2 {
         width: 98%;
         margin: 10px;
     }
-
-    .paragrafo {
-        width: 332px;
+    
+    #titolo {
+        justify-content: flex-start;
+        margin-bottom: 50px;
     }
-
-    .containerList {
-        height: auto;
+    
+    nav {
+        justify-content: space-between;
     }
-
-    .containerList h3 {
-        font-size: 15px;
-    }
-
-    .firstList {
-        width: 94%;
-    }
-
-    .secondList {
-        width: 91%;
-    }
-
-    .firstList li {
-        font-size: 13px;
-        margin-right: 10px;
-        padding: 5px 15px;
-        margin-bottom: 5px;
-    }
-
-    .secondList li {
-        font-size: 13px;
-        margin-right: 30px;
-        margin-bottom: 10px;
-    }
-
-    .data {
-        font-size: 11px;
-    }
-
+    
+    nav img,
     .scritte {
         margin-left: 10px;
     }
-
+    
+    nav ul,
+    .firstList li {
+        margin-right: 10px;
+    }
+    
+    nav ul li:nth-child(1),
+    nav ul li:nth-child(2),
+    nav ul li:nth-child(3),
+    svg {
+        display: none;
+    }
+    
+    .news h2 {
+        width: 380px;
+    }
+    
+    .section1,
+    .container2 {
+        width: 100%;
+    }
+    
+    .paragrafo {
+        width: 332px;
+    }
+    
+    .containerList {
+        height: auto;
+    }
+    
+    .containerList h3 {
+        font-size: 15px;
+    }
+    
+    .firstList {
+        width: 94%;
+    }
+    
+    .secondList {
+        width: 91%;
+    }
+    
+    .firstList li,
+    .secondList li {
+        font-size: 13px;
+    }
+    
+    .firstList li {
+        padding: 5px 15px;
+        margin-bottom: 5px;
+    }
+    
+    .secondList li {
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .data {
+        font-size: 11px;
+    }
+    
     .scritte h1 {
         font-size: 5.3em;
     }
-
+    
     #titolo h3 {
         font-size: 1.4em
-    }
-
-    svg {
-        display: none;
     }
 }
