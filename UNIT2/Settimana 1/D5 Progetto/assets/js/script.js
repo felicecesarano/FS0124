@@ -27,9 +27,8 @@ function animazione() {
             let numeroRandom = Math.floor(Math.random() * lettere.length);
             setTimeout(() => {
                 alternareVisibilita(lettere[numeroRandom]);
-            }, i * 400);
+            }, i * 700);
         }
-        setTimeout(letteraCasuale, 1000);
     }
     letteraCasuale();
 }
