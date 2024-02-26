@@ -223,15 +223,51 @@ aside {
         display: flex;
     }
 
+body {
+    flex-wrap: wrap;
+}
+
     header {
         order:1;
+        height: 134vh;
     }
 
 main {
     order: 2;
+    width: 77%;
+    height: 30%;
 }
 aside {
     order: 3;
+    position: absolute;
+    top: 265px;
+    right: -6px;
+    width: 74%;
+}
+
+main div:nth-child(5){
+display: none;
+}
+
+.scritte {
+    font-size: 0.8em;
+
+}
+
+#titolo h1 {
+    margin: 0;
+}
+
+#titolo {
+    height: auto;
+}
+.schede {
+    width: 171px;
+    height: 220px;
+}
+
+#titolo {
+    width: 60%;
 }
     nav ul {
         flex-direction: column;
@@ -247,5 +283,35 @@ aside {
     }
     nav li  {
         margin-bottom: 10px;
+    }
+
+    .scritte div p, .schede h3 {
+        width: 103px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    main div:nth-child(5), .schede:last-child {
+display: initial;
+    }
+
+    main {
+        width: 85%;
+    }
+
+    #titolo {
+        width: 77%;
+    }
+
+    #lorem img {
+        width: 100%;
+    }
+
+    aside {
+        right: 34px;
+        width: 80%;
+    }
+    header {
+        height: 153vh;
     }
 }
