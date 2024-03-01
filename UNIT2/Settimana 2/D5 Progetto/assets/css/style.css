@@ -1,0 +1,39 @@
+a {
+    color: white !important;
+}
+
+.hov:hover {
+    background-color: black !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+.avatar {
+    width: 45px;
+}
+
+
+footer ul,
+footer span {
+    font-size: 0.9rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.avatarEdit {
+    width: 160px;
+}
+
+.textCheck {
+    font-size: 1.1rem;
+}
+
+.check {
+    position: relative;
+    left: 36px;
+    top: 30px
+}
