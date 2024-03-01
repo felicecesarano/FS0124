@@ -51,4 +51,13 @@ footer a {
     .check {
         left: 40px;
     }
+
+    .h1Account{
+        font-size: 2rem !important;
+    }
+
+    .h4Account {
+        font-size: 1.6rem !important;
+    }
+    
 }

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Account</title>
+</head>
+
+<body>
+    <header class="ps-3 pe-4 bg-black">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand" href="index.html"><img class="logo" src="assets/netflix_logo.png" alt=""></a>
+                <button class="navbar-toggler border border-secondary rounded" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-list text-white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <div>
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="">Tv Shows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="">Movies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="">Recently Added</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="">My List</a>
+                            </li>
+                    </div>
+                    <div class="d-flex align-items-center text-white">
+                        <svg class="me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                        <p class="m-0 me-3">KIDS</p>
+                        <svg class="me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-bell-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901" />
+                        </svg>
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle p-0 " href="" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="assets/avatar.png" class="avatar" alt="">
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end bg-black">
+                                    <li><a class="dropdown-item hov" href="editProfile.html"><img
+                                                src="assets/avatar.png" class="avatar me-2" alt="">Felice
+                                            Cesarano</a></li>
+                                    <li><a class="dropdown-item hov" href="editProfile.html">Manage Profiles</a></li>
+                                    <li><a class="dropdown-item hov" href="">Account</a></li>
+                                    <li><a class="dropdown-item hov" href="">Help Center</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item hov" href="">Singout Netflix</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row col-8 col-md-10 offset-md-1 offset-2 pt-5">
+                <div class="p-0 mb-3">
+                    <h1 class="display-5 h1Account title-page2 fw-semibold text-dark">Account</h1>
+                </div>
+            </div>
+            <div class="row col-8 offset-2 col-md-10 offset-md-1  border-top border-dark-subtle pt-3">
+                <div class="p-0 mb-3 d-md-flex">
+                    <div class="mb-3 col-md-4">
+                        <h4 class="title-page2 h4Account fw-semibold text-black-50">MEMBERSHIP & BILLING</h4>
+                        <button class="btn btn-light shadow rounded-1 text-dark px-4" type="button">
+                            Cancel Membership
+                        </button>
+                    </div>
+                    <div class="d-flex justify-content-between col-md-8">
+                        <ul class="navbar-nav">
+                            <li class="fw-bold mb-md-2">cesarano.fc@gmail.com</li>
+                            <li class="mb-md-2">Password: *******</li>
+                            <li class="mb-md-2"></li>Phone: 321 044 1279</li>
+                        </ul>
+                        <ul class="navbar-nav text-end">
+                            <li class="mb-md-2"><a class="text-primary" href="">Change account email</a></li>
+                            <li class="mb-md-2"><a class="text-primary" href="">Change password</a></li>
+                            <li class="mb-md-2"><a class="text-primary" href="">Change phone number</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-8 offset-2 col-md-7 offset-md-4 border-top border-dark-subtle pt-3">
+                <div class="p-0 mb-3 d-flex">
+                    <div class="col-6 d-md-flex align-items-md-start">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" class="w-25" alt="">
+                        <ul class="navbar-nav">
+                            <li class="fw-bold">cesarano.fc@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="navbar-nav text-end">
+                            <li><a class="text-primary" href="">Update payment info</a></li>
+                            <li><a class="text-primary" href="">Billing details</a></li>
+                            <li><a class="text-primary" href="">Redeem giftcard or promo code</a></li>
+                            <li><a class="text-primary" href="">Where to buy gift cards?</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-8 offset-2 col-md-10 offset-md-1 border-top border-dark-subtle pt-3">
+                <div class="p-0 mb-3 d-md-flex">
+                    <div class="col-md-4">
+                        <h4 class="title-page2 h4Account fw-semibold text-black-50 mb-0">PLAN DETAILS</h4>
+                    </div>
+                    <div class="d-flex justify-content-between w-100">
+                        <ul class="navbar-nav">
+                            <li class="fw-bold">Standard <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-badge-hd" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.396 11V5.001H6.209v2.44H3.687V5H2.5v6h1.187V8.43h2.522V11zM8.5 5.001V11h2.188c1.811 0 2.685-1.107 2.685-3.015 0-1.894-.86-2.984-2.684-2.984zm1.187.967h.843c1.112 0 1.622.686 1.622 2.04 0 1.353-.505 2.02-1.622 2.02h-.843z" />
+                                    <path
+                                        d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" />
+                                </svg></li>
+                        </ul>
+                        <ul class="navbar-nav text-end">
+                            <li><a class="text-primary" href="">Change plan</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-8 offset-2 col-md-10 offset-md-1 border-top border-dark-subtle pt-3">
+                <div class="p-0 mb-3 d-md-flex">
+                    <div class="col-md-4">
+                        <h4 class="title-page2 mb-2 h4Account fw-semibold text-black-50">SETTINGS</h4>
+                    </div>
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="mb-1"><a class="text-primary" href="">Parent Controls</a></li>
+                            <li class="mb-1"><a class="text-primary" href="">Test Participation</a></li>
+                            <li class="mb-1"><a class="text-primary" href="">Manage download</a></li>
+                            <li class="mb-1"><a class="text-primary" href="">Activate a device</a></li>
+                            <li class="mb-1"><a class="text-primary" href="">Recent device streaming activity</a></li>
+                            <li class="mb-1"><a class="text-primary" href="">Signout all devices</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-8 offset-2 col-md-10 offset-md-1 border-top border-dark-subtle pt-3">
+                <div class="p-0 mb-3 d-md-flex flex-md-wrap">
+                    <div class="col-md-4">
+                        <h4 class="title-page2 mb-2 h4Account fw-semibold text-black-50">MY PROFILE</h4>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4 col-md-8">
+                        <div>
+                            <img src="assets/avatar.png" class="avatar me-2" alt="">
+                            <span class="fw-bold">Felice Cesarano</span>
+                        </div>
+                        <div>
+                            <ul class="navbar-nav">
+                                <li><a class="text-primary" href="editProfile.html">Manage profiles</a></li>
+                                <li><a class="text-primary" href="">Add profile email</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="offset-md-4 d-md-flex">
+                        <ul class="navbar-nav me-md-4 me-lg-5">
+                            <li class="mb-1"><a class="text-primary" href="">Language</a></li>
+                            <li class="mb-1"><a class="text-primary" href="">Playback settings</a></li>
+                            <li class="mb-1"><a class="text-primary" href="">Subtitle appearence</a></li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="mb-1"><a class="text-primary" href="">Viewing acrivity</a></li>
+                            <li class="mb-1"><a class="text-primary" href="">Ratings</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
