@@ -38,12 +38,46 @@ footer a {
     top: 30px
 }
 
-.hover-img:hover{
+.hover-img:hover {
     opacity: 1 !important;
     transform: scale(1.01);
 }
 
-@media screen and (min-width: 992px){
+.footerList {
+    font-size: 0.8rem;
+}
+
+.mainPage1 {
+    margin-bottom: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .bodyPage1 {
+        background-image: url(https://www.notebookcheck.it/fileadmin/Notebooks/News/_nc3/netflixteaser.png);  
+    }
+
+    .footerPage1 {
+        background-color: rgba(0, 0, 0, 0.822);
+        padding-top: 20px;
+    }
+
+    .mainPage1 {
+        border: none !important;
+        margin-bottom: 0 !important;
+    }
+
+    .mainPage1, .headerPage1 {
+        background-color: rgba(0, 0, 0, 0.822);
+    }
+
+    .h1Page1 {
+        margin-left: 168px;
+    }
+}
+
+@media screen and (min-width: 992px) {
     .title-page2 {
         font-size: 4rem !important;
     }
@@ -52,12 +86,12 @@ footer a {
         left: 40px;
     }
 
-    .h1Account{
+    .h1Account {
         font-size: 2rem !important;
     }
 
     .h4Account {
         font-size: 1.6rem !important;
     }
-    
+
 }
