@@ -33,50 +33,49 @@ class Pet {
         this.species = _species;
         this.breed = _breed;
     }
-        compareOwner(pet) {
-            return this.ownerName === pet.ownerName;
+    compareOwner(pet) {
+        return this.ownerName === pet.ownerName;
+    }
+}
+
+const btn = document.getElementById('aggiungi');
+const pets = [];
+let petsNew;
+
+btn.addEventListener('click', e => {
+    e.preventDefault();
+
+    let petName = document.getElementById('petName').value;
+    let ownerName = document.getElementById('ownerName').value;
+    let species = document.getElementById('species').value;
+    let breed = document.getElementById('breed').value;
+
+    petsNew = new Pet(petName, ownerName, species, breed);
+    pets.push(petsNew);
+
+    for (let i = 0; i < pets.length; i++) {
+        if (pets[i].compareOwner(petsNew)) {
+            console.log(`${pets[i].ownerName} ha già registrato uno o più animali`);
         }
     }
-    
-    const btn = document.getElementById('aggiungi');
-    const pets = [];
-    let petsNew;
-    
-    btn.addEventListener('click', e => {
-        e.preventDefault();
-    
-        let petName = document.getElementById('petName').value;
-        let ownerName = document.getElementById('ownerName').value;
-        let species = document.getElementById('species').value;
-        let breed = document.getElementById('breed').value;
-    
-        petsNew = new Pet(petName, ownerName, species, breed);
-    
-        for (let i = 0; i < pets.length; i++) {
-            if (pets[i].compareOwner(petsNew)) {
-                console.log(`${pets[i].ownerName} ha già registrato uno o più animali`);
-            }
-        }
 
-        pets.push(petsNew);
-        printPets();
+    printPets();
+});
+
+const printPets = () => {
+    let newPet = document.getElementById('newPet');
+    newPet.innerHTML = '';
+    pets.forEach(detailsPet => {
+        let col1 = document.createElement('td');
+        col1.innerText = `${detailsPet.petName}`;
+        let col2 = document.createElement('td');
+        col2.innerText = `${detailsPet.ownerName}`;
+        let col3 = document.createElement('td');
+        col3.innerText = `${detailsPet.species}`;
+        let col4 = document.createElement('td');
+        col4.innerText = `${detailsPet.breed}`;
+        let row = document.createElement('tr');
+        row.append(col1, col2, col3, col4);
+        newPet.appendChild(row);
     });
-    
-    const printPets = () => {
-        let newPet = document.getElementById('newPet');
-        newPet.innerHTML = '';
-        pets.forEach(detailsPet => {
-            let col1 = document.createElement('td');
-            col1.innerText = `${detailsPet.petName}`;
-            let col2 = document.createElement('td');
-            col2.innerText = `${detailsPet.ownerName}`;
-            let col3 = document.createElement('td');
-            col3.innerText = `${detailsPet.species}`;
-            let col4 = document.createElement('td');
-            col4.innerText = `${detailsPet.breed}`;
-            let row = document.createElement('tr');
-            row.append(col1, col2, col3, col4);
-            newPet.appendChild(row);
-        });
-    };
-    
+};
