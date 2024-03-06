@@ -17,7 +17,7 @@ function selectAll() {
     for (let i = 0; i < list.length; i++) {
         cardBook.innerHTML +=
             `<div class="col-6 col-md-4 p-1">
-        <div class="card" id="book-${i}">
+        <div class="card h-100" id="book-${i}">
             <img src="${list[i].img}" class="card-img-top" alt="${list[i].title}">
             <div class="card-body">
                 <h5 class="card-title">${list[i].title}</h5>
