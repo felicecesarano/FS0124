@@ -2,6 +2,7 @@ const endpoint = "https://striveschool-api.herokuapp.com/api/product/"
 const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWViMWJkZDJkN2IxMTAwMTkwZTc3NGIiLCJpYXQiOjE3MDk5MDY5MTAsImV4cCI6MTcxMTExNjUxMH0.jhAi6Gw2QmKmtqEHo3DT8ej4KvqP8_ngsFO1Kz-xcDw"
 let editProduct = {};
 
+const btnDelete = document.getElementById('delete');
 const btnReset = document.getElementById('reset');
 const btnSave = document.getElementById('save');
 const nameProduct = document.getElementById('nameProduct');
@@ -78,6 +79,40 @@ const putFetch = async () => {
     }
 };
 
+const deleteFetch = async () => {
+    try {
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id');
+
+        if (!id) {
+            console.log('Parametro id non trovato nell\'URL');
+            return;
+        }
+
+        const apiUrl = `${endpoint}${id}`;
+
+        const response = await fetch(apiUrl, {
+            method: 'DELETE',
+            headers: {
+                'Authorization': `Bearer ${apiKey}`,
+                'Content-Type': 'application/json',
+            },
+        });
+
+        if (response.ok) {
+            console.log('Prodotto eliminato con successo');
+            // Puoi anche reindirizzare l'utente dopo l'eliminazione se necessario
+            window.location.href = 'index.html';
+        } else {
+            console.log('Eliminazione non riuscita. Status:', response.status);
+        }
+    } catch (error) {
+        console.log(`Errore durante l'eliminazione: ${error}`);
+    }
+};
+
+
+
 btnSave.addEventListener('click', async (e) => {
     e.preventDefault();
 
@@ -125,3 +160,12 @@ btnReset.addEventListener('click', (e) => {
         }
     })
 
+    btnDelete.addEventListener('click', async (e) => {
+        e.preventDefault();
+    
+        const conferma = confirm('Sei sicuro di voler eliminare il prodotto?');
+    
+        if (conferma) {
+            await deleteFetch();
+        }
+    });
