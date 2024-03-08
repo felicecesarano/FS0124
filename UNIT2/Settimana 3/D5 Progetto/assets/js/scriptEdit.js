@@ -101,7 +101,6 @@ const deleteFetch = async () => {
 
         if (response.ok) {
             console.log('Prodotto eliminato con successo');
-            // Puoi anche reindirizzare l'utente dopo l'eliminazione se necessario
             window.location.href = 'index.html';
         } else {
             console.log('Eliminazione non riuscita. Status:', response.status);
