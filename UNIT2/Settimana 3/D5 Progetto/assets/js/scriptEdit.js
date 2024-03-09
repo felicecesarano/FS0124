@@ -1,3 +1,5 @@
+/* MODIFICA PRODOTTO */
+
 const endpoint = "https://striveschool-api.herokuapp.com/api/product/"
 const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWViMWJkZDJkN2IxMTAwMTkwZTc3NGIiLCJpYXQiOjE3MDk5MDY5MTAsImV4cCI6MTcxMTExNjUxMH0.jhAi6Gw2QmKmtqEHo3DT8ej4KvqP8_ngsFO1Kz-xcDw"
 let editProduct = {};

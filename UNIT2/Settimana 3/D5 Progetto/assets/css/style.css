@@ -18,10 +18,5 @@ width: 150px;
 
 .scale:hover {
     opacity: 1 !important;
-    transform: scale(1.03);
-
-}
-
-.spinner-border {
-    border: 0 !important;
+    transform: scale(1.02);
 }
