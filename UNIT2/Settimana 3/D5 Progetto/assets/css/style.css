@@ -11,3 +11,13 @@ header {
 nav img {
 width: 150px;
 }
+
+.scale {
+    transition: transform 0.5s
+}
+
+.scale:hover {
+    opacity: 1 !important;
+    transform: scale(1.03);
+
+}

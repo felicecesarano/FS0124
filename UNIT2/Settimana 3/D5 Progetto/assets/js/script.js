@@ -22,7 +22,7 @@ const fetchData = async (endpoint) => {
 };
 
 const createCard = (product) => `
-  <div class="card mb-2 ms-2 shadow " style="width: 19rem;">
+  <div class="card mb-2 ms-2 shadow opacity-75 scale" style="width: 19rem;">
     <img src="${product.imageUrl}" class="card-img-top" alt="Immagine Prodotto">
     <div class="card-body d-flex flex-column justify-content-between">
       <div class="mb-3">
