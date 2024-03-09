@@ -30,9 +30,10 @@ const dataFetch = async () => {
                 'Content-Type': 'application/json',
             },
         });
-
+        const loading = document.getElementById('loading');
         if (response.ok) {
             const data = await response.json();
+            loading.style.display = 'none';
             console.log('I dati sono stati ricevuti:', data);
 
             nameProduct.value = data.name;
@@ -152,19 +153,19 @@ const resetForm = () => {
 
 btnReset.addEventListener('click', (e) => {
     e.preventDefault();
-        const conferma = confirm('Sei sicuro di voler resettare il form?')
-    
-        if (conferma) {
-            resetForm();
-        }
-    })
+    const conferma = confirm('Sei sicuro di voler resettare il form?')
 
-    btnDelete.addEventListener('click', async (e) => {
-        e.preventDefault();
-    
-        const conferma = confirm('Sei sicuro di voler eliminare il prodotto?');
-    
-        if (conferma) {
-            await deleteFetch();
-        }
-    });
+    if (conferma) {
+        resetForm();
+    }
+})
+
+btnDelete.addEventListener('click', async (e) => {
+    e.preventDefault();
+
+    const conferma = confirm('Sei sicuro di voler eliminare il prodotto?');
+
+    if (conferma) {
+        await deleteFetch();
+    }
+});
