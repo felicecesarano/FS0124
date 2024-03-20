@@ -3,6 +3,6 @@ export interface Post {
     title: string,
     body: string,
     active: boolean,
-    tags: string[],
+    tags: Array<string>,
     reactions: number
 }
