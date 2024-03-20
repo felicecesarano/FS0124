@@ -1,0 +1,9 @@
+<div class="card border-0" *ngFor="let randomPost of randomPosts">
+  <div class="card-body">
+      <h6>{{randomPost.tags}}</h6>
+    <h5 class="card-title">{{randomPost.title}}</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Reactions: {{randomPost.reactions}}</h6>
+    <p class="card-text">{{randomPost.body}}</p>
+    <a href="#" class="card-link">Leggi di più...</a>
+  </div>
+</div>
