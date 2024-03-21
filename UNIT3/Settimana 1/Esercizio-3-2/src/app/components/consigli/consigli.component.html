@@ -1,0 +1,12 @@
+<div>
+  <h5>Potrebbero piacerti:</h5>
+  <div *ngFor="let post of randomPosts" class="card">
+    <div class="card-body">
+      <a [routerLink]="['/details', post.id]">🔗 {{ post.title }}</a>
+      <div class="text-white my-1">
+        <span *ngFor="let tag of post.tags" class="bg-primary rounded px-1 me-2">{{ tag.toUpperCase() }}</span>
+      </div>
+      <p class="m-0">{{ post.reactions }} 👍</p>
+    </div>
+  </div>
+</div>

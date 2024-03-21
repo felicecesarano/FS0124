@@ -181,7 +181,6 @@ function saveCurrentArtist(object) {
 
 
 function createCard3(albumData, isNone, targetElement) {
-    console.log(albumData)
     const outerDiv = document.createElement('div');
     outerDiv.classList.add('card3', 'd-flex', 'm-1');
     outerDiv.onclick = function () {
@@ -276,12 +275,16 @@ async function fillIndexPage() {
         albumData = await getFetch('album', algorithmUserFeed[i], '' /* , keys[4] */);
         createCard3(albumData, i < 12 ? false : true, documentCard3_2Box);
     }
+
+    for (let i = 0; i < albumsData.length; i++) {
+        albumData = await getFetch('search', ('?q=' + algorithmUserFeed2[i])),
+        createCard4(albumData, i);
+    }
 }
 
 window.addEventListener('load', init);
 
 function init() {
-    createCardSearch();
     fillIndexPage();
 }
 

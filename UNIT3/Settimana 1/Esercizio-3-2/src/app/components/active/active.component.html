@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <div class="col-8 offset-2">
+    <h1 class="text-center">Post Attivi</h1>
+    <span *ngFor="let posts of posts">
+      <div class="card mb-2" *ngIf="posts.active">
+        <div class="card-header">
+          <span class="me-2">{{ posts.tags }}</span>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ posts.title }}</h5>
+          <p class="card-text">{{ posts.body }}</p>
+          <a [routerLink]="['/details', posts.id]" class="btn btn-primary"
+            >Dettagli</a
+          >
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
