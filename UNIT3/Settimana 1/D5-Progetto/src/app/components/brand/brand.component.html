@@ -3,7 +3,7 @@
         <h2 class="text-center">I nostri marchi</h2>
         <div class="justify-content-around d-flex align-items-center ">
             <div *ngFor="let item of logo">
-                <a class="nav-link active" [routerLink]="['/',item.brand.toLowerCase()]" aria-current="page"><img src="{{item.brandLogo}}" alt="" ></a>
+                <a class="nav-link active " [routerLink]="['/',item.brand.toLowerCase()]" aria-current="page"><img src="{{item.brandLogo}}" alt="" ></a>
             </div>
         </div>
     </div>

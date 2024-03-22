@@ -2,7 +2,7 @@
   <div class="row">
     <h2 class="text-center mb-5">Auto in evidenza</h2>
     <div class="justify-content-around d-flex align-items-center">
-      <div class="card" [ngClass]="{
+      <div class="card shadow" [ngClass]="{
         'border-danger': !item.available,
         'border-success': item.available
       }" style="width: 18rem" *ngFor="let item of randomCar">
