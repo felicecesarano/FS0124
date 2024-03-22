@@ -1,0 +1,27 @@
+<div class="container my-4">
+  <div class="row">
+    <h2 class="text-center mb-5">Auto in evidenza</h2>
+    <div class="justify-content-around d-flex align-items-center">
+      <div class="card" [ngClass]="{
+        'border-danger': !item.available,
+        'border-success': item.available
+      }" style="width: 18rem" *ngFor="let item of randomCar">
+        <img src="{{ item.modelImage }}" class="card-img-top" alt="..." />
+        <div [ngClass]="{
+            'bg-danger': !item.available,
+            'bg-success': item.available
+          }" class="card-body text-center rounded-bottom">
+          <h4 class="card-title mb-3">{{ item.brand }} {{ item.model }}</h4>
+          <div>
+            <span class="me-2 bg-white rounded  px-2 py-1 fw-bold">ANNO: <span class="fw-lighter">{{ item.year }}</span></span>
+            <span class="bg-white rounded  px-2 py-1 fw-bold">PREZZO: <span class="fw-lighter">{{ item.price }}€</span></span>
+          </div>
+          <div class="mt-2 mb-3">
+            <span class="bg-white rounded  px-2 py-1 fw-bold">PRONTA CONSEGNA: <span class="fw-lighter">{{ item.available ? "SI" : "NO"}}</span></span>
+          </div>
+          <a [routerLink]="['/', item.brand.toLowerCase()]" class="btn border-0 btn-light fw-bold">Tutte le nostre {{ item.brand }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

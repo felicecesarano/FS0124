@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "brand": "Fiat",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/02/Logo-Fiat-600x338.png",
+        "model": "500L",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-51-iz0284-01p.jpg",
+        "body": "Monovolume dal muso e dalla sigla che evocano la citycar 500, deriva in realtà dalla Punto (ma con sostanziali novità). In rapporto alle dimensioni esterne, che le permettono di muoversi agevolmente anche in città, lo spazio disponibile è davvero abbondante e, oltretutto, ben sfruttato. Il piccolo diesel 1.3 da 84 CV consuma poco e assicura prestazioni dignitose, ma a volte fatica contro i 1315 kg di massa in ordine di marcia. Discreta la dotazione di serie.",
+        "year": 2015,
+        "price": 7500,
+        "available": false
+    },
+    {
+        "id": 2,
+        "brand": "Fiat",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/02/Logo-Fiat-600x338.png",
+        "model": "500 Abarth",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-51-iz0271-01p.jpg",
+        "year": 2010,
+        "body": "Con il frontale dalle aggressive prese d’aria e le ruote in lega di 16 o 17 pollici, le ABARTH 595 e 695 non passano certo inosservate. La caratterizzazione sportiva dell'abitacolo è altrettanto evidente, grazie ai sedili molto avvolgenti (ma posti un po' troppo in alto), alla presenza del manometro della pressione del turbo e alla pedaliera in alluminio a vista. La Fiat 500 reinterpretata secondo la filosofia Abarth monta un vigoroso quattro cilindri 1.4 turbo (non moderno: ormai, nel gruppo Stellantis, lo monta solo questa sportivetta), l’assetto ribassato e le sospensioni irrigidite: scattante e veloce, sfoggia un’ottima tenuta di strada. Per contro, il comfort non è il massimo (le buche si sentono e il pur piacevole rombo del motore è evidente) e il prezzo - considerate anche le notevoli possibilità di personalizzazione a pagamento - va considerato da amatore. La principale differenza tecnica fra le 595 e le 695 è la potenza, dovuta a piccole variazioni al motore (incluso un diverso impianto di scarico).",
+        "price": 3500,
+        "available": true
+    },
+    {
+        "id": 3,
+        "brand": "Ford",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Ford-Logo-600x338.png",
+        "model": "Taurus",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/01/aut-15-iz0614-01p.jpg",
+        "year": 2009,
+        "body": "Il Ford Taurus VI del 2009 è un'auto di grandi dimensioni prodotta dalla Ford Motor Company.Ha un motore V6 da 3,5 litri con 24 valvole che produce una potenza di 263 CV. La sua trasmissione è automatica, offrendo un cambio di marcia senza intervento manuale. Il design esterno del Taurus VI presenta una linea aerodinamica e moderna, con una griglia anteriore distintiva e fari anteriori eleganti. L'abitacolo offre ampi spazi per i passeggeri e un bagagliaio spazioso, che lo rende ideale per viaggi e trasporti di persone o merci. Tra le caratteristiche di sicurezza, il Taurus VI del 2009 include airbag frontali e laterali, controllo elettronico della stabilità, freni antibloccaggio (ABS) e controllo della trazione. Dispone anche di comfort moderni come il climatizzatore, il sistema audio di alta qualità e una vasta gamma di opzioni per il comfort dei passeggeri. Complessivamente, il Ford Taurus VI del 2009 con il suo motore potente, il design accattivante e le caratteristiche di sicurezza avanzate rappresenta un'opzione interessante per chi cerca un'auto di grandi dimensioni e affidabile.",
+        "price": 5200,
+        "available": false
+    },
+    {
+        "id": 4,
+        "brand": "Ford",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Ford-Logo-600x338.png",
+        "model": "Focus",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-50-iz1081-01p.jpg",
+        "year": 2014,
+        "body": "La Ford Focus III Hatchback Restyling 2014 è una vettura compatta a 5 porte prodotta dalla casa automobilistica americana Ford.Il restyling del 2014 ha apportato alcune modifiche estetiche al design della vettura, compreso un nuovo frontale, una griglia più grande e un paraurti posteriore ridisegnato.Il modello 1.0 EcoBoost 100 CV S-S fa riferimento al motore a benzina turbo da 1,0 litri, che eroga una potenza di 100 cavalli (74 kW) e dispone di un sistema Start-Stop (S-S) per il risparmio di carburante e la riduzione delle emissioni.La vettura è disponibile con un cambio manuale a 6 marce o con un cambio automatico a doppia frizione a 6 marce (disponibile solo per alcuni mercati).Alcune delle caratteristiche standard della vettura includono il controllo automatico della climatizzazione, il sistema di infotainment Ford SYNC, il sistema di navigazione satellitare, il cruise control e il sistema di monitoraggio della pressione dei pneumatici.La Ford Focus III Hatchback Restyling 2014 con il motore 1.0 EcoBoost 100 CV S-S è una vettura efficiente e affidabile, ideale per chi cerca una vettura compatta ma spaziosa e dotata di molte funzionalità e tecnologie avanzate.",
+        "price": 9700,
+        "available": true
+    },
+    {
+        "id": 5,
+        "brand": "Audi",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2015/10/Audi-Logo-600x338.png",
+        "model": "A3",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/05/aut-46-iz0055-01p.jpg",
+        "year": 2012,
+        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
+        "price": 4300,
+        "available": true
+    },
+    {
+        "id": 6,
+        "brand": "Audi",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2015/10/Audi-Logo-600x338.png",
+        "model": "Q7",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-51-iz0124-01p.jpg",
+        "year": 2020,
+        "body": "Completamente rinnovata nel 2015 e rinfrescata nel 2019, l’AUDI Q7 è comunque una suv dalle linee molto tradizionali. Come è logico aspettarsi da un'auto così ingombrante, il curato abitacolo è generoso di spazio anche nella zona posteriore (c’è anche la versione a sette posti) e piuttosto pratico: il divano scorre longitudinalmente di 13 cm e si può ripiegare per formare un piano di carico lungo oltre due metri. Ampia la scelta dei motori, con sei o otto cilindri: si va dalla 3.0 diesel mild hybrid con 231 CV alle 3.0 ibride ricaricabili a benzina, fino alle strapotenti SQ7 4.0, sempre a benzina, con 570 CV. Tutte dispongono del cambio automatico a otto marce e della trazione integrale. L'AUDI Q7 può essere resa più maneggevole dal sistema di sterzata integrale, che agisce (con movimenti di pochi gradi) anche sulle ruote posteriori. Nulla da eccepire sul comfort: l’abitacolo è insonorizzato a dovere e, se la vettura monta anche le sospensioni adattative (optional), sembra di viaggiare su un tappeto volante; gli ammortizzatori pneumatici consentono pure di ribassare l’assetto di 3 cm a velocità elevata e di rialzarlo di 6 cm in off-road. La dotazione di serie è discreta per il tipo di auto e per il prezzo. Fra i principali optional, citiamo i sedili climatizzati, il volante con regolazione elettrica, l’head-up display e il sistema di parcheggio automatico.",
+        "price": 41700,
+        "available": false
+    }
+]

@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg bg-black">
+  <div class="container-fluid ps-0">
+    <div class="d-flex">
+      <a class="nav-link active" [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><img src="../../../assets/logo.svg" alt=""></a> 
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+         <div class="navbar-nav ms-5">
+           <a class="nav-link text-white" aria-current="page" [routerLink]="['/']">Home</a>
+           <a class="nav-link text-white" [routerLink]="['/fiat']">Fiat</a>
+           <a class="nav-link text-white" [routerLink]="['/ford']">Ford</a>
+           <a class="nav-link text-white" [routerLink]="['/audi']">Audi</a>
+         </div>
+       </div>
+    </div>
+      <img src="../../../assets/logoCar.svg" alt="" class="logoCar">
+  </div>
+</nav>
