@@ -20,7 +20,6 @@ export class FeaturedCarComponent {
   async getPosts() {
     let response = await fetch('assets/db.json');
     let data = await response.json();
-    console.log(data);
     return data;
   }
 
