@@ -1,0 +1,32 @@
+<div class="container my-4">
+    <div class="row border-bottom">
+        <div class="text-center">
+            <h2 class="text-center">Le nostre auto FORD</h2>
+            <img src="{{ ferrari[0].brandLogo }}" class="logoBrand my-4" alt="">
+        </div>
+        <div class="card p-0 mb-3 shadow" [ngClass]="{
+            'border-danger': !car.available,
+            'border-success': car.available
+          }" *ngFor="let car of ferrari">
+            <img src="{{ car.modelImage }}" class="modelImg" alt="..." />
+            <div [ngClass]="{
+                'bg-danger': !car.available,
+                'bg-success': car.available
+              }" class="card-body rounded-bottom">
+                <h3 class="card-title mb-3">{{ car.model }}</h3>
+                <div class="d-flex justify-content-between">
+                    <div>
+                    <span class="bg-white rounded px-2 fw-bold py-1">ANNO: <span class="fw-lighter">{{ car.year }}</span></span>
+                    <span class="bg-white rounded px-2 fw-bold py-1 mx-2">PREZZO: <span class="fw-lighter">{{ car.price }}€</span></span>
+                    <span class="bg-white rounded px-2 fw-bold py-1">PRONTA CONSEGNA: <span class="fw-lighter">{{ car.available ? "SI" :
+                        "NO"}}</span></span>
+                    </div>
+                        <div>
+                            <a [routerLink]="['/details', car.id]" class="bg-white rounded fw-bold px-2 py-1 nav-link">Dettagli</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

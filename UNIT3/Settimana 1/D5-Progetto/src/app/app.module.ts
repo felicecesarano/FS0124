@@ -12,28 +12,44 @@ import { FiatComponent } from './components/fiat/fiat.component';
 import { FordComponent } from './components/ford/ford.component';
 import { AudiComponent } from './components/audi/audi.component';
 import { DetailsComponent } from './components/details/details.component';
+import { LandroverComponent } from './components/landrover/landrover.component';
+import { FerrariComponent } from './components/ferrari/ferrari.component';
+import { LamborghiniComponent } from './components/lamborghini/lamborghini.component';
 
 const routes: Route[] = [
   {
-      path: '',
-      component: HomeComponent,
+    path: '',
+    component: HomeComponent,
   },
   {
-      path: 'fiat',
-      component: FiatComponent,
+    path: 'fiat',
+    component: FiatComponent,
   },
   {
-      path: 'audi',
-      component: AudiComponent,
+    path: 'audi',
+    component: AudiComponent,
   },
   {
-    path:'ford',
+    path: 'ford',
     component: FordComponent,
   },
   {
-    path:'details/:id',
-    component: DetailsComponent
-  }
+    path: 'ferrari',
+    component: FerrariComponent,
+  },
+  {
+    path: 'lamborghini',
+    component: LamborghiniComponent,
+  },
+  {
+    path: 'landrover',
+    component: LandroverComponent,
+  },
+  
+  {
+    path: 'details/:id',
+    component: DetailsComponent,
+  },
 ];
 
 @NgModule({
@@ -47,13 +63,13 @@ const routes: Route[] = [
     FiatComponent,
     FordComponent,
     AudiComponent,
-    DetailsComponent
+    DetailsComponent,
+    LandroverComponent,
+    FerrariComponent,
+    LamborghiniComponent,
   ],
-  imports: [
-    BrowserModule,
-    RouterModule.forRoot(routes)
-  ],
+  imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

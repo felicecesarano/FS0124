@@ -64,5 +64,71 @@
         "body": "Completamente rinnovata nel 2015 e rinfrescata nel 2019, l’AUDI Q7 è comunque una suv dalle linee molto tradizionali. Come è logico aspettarsi da un'auto così ingombrante, il curato abitacolo è generoso di spazio anche nella zona posteriore (c’è anche la versione a sette posti) e piuttosto pratico: il divano scorre longitudinalmente di 13 cm e si può ripiegare per formare un piano di carico lungo oltre due metri. Ampia la scelta dei motori, con sei o otto cilindri: si va dalla 3.0 diesel mild hybrid con 231 CV alle 3.0 ibride ricaricabili a benzina, fino alle strapotenti SQ7 4.0, sempre a benzina, con 570 CV. Tutte dispongono del cambio automatico a otto marce e della trazione integrale. L'AUDI Q7 può essere resa più maneggevole dal sistema di sterzata integrale, che agisce (con movimenti di pochi gradi) anche sulle ruote posteriori. Nulla da eccepire sul comfort: l’abitacolo è insonorizzato a dovere e, se la vettura monta anche le sospensioni adattative (optional), sembra di viaggiare su un tappeto volante; gli ammortizzatori pneumatici consentono pure di ribassare l’assetto di 3 cm a velocità elevata e di rialzarlo di 6 cm in off-road. La dotazione di serie è discreta per il tipo di auto e per il prezzo. Fra i principali optional, citiamo i sedili climatizzati, il volante con regolazione elettrica, l’head-up display e il sistema di parcheggio automatico.",
         "price": 41700,
         "available": false
+    },
+    {
+        "id": 7,
+        "brand": "Ferrari",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2015/12/Ferrari-Logo.png",
+        "model": "F-12 Berlinetta",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/frr-04-rk0703-01p.jpg",
+        "year": 2014,
+        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
+        "price": 4300,
+        "available": false
+    },
+    {
+        "id": 8,
+        "brand": "Ferrari",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2015/12/Ferrari-Logo.png",
+        "model": "599 GTO",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/frr-09-rk0081-01p.jpg",
+        "year": 2011,
+        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
+        "price": 4300,
+        "available": true
+    },
+    {
+        "id": 9,
+        "brand": "Lamborghini",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/logo-Lamborghini.png",
+        "model": "Aventador",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/lam-01-rk0775-01p.jpg",
+        "year": 2012,
+        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
+        "price": 4300,
+        "available": true
+    },
+    {
+        "id": 10,
+        "brand": "Lamborghini",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/logo-Lamborghini.png",
+        "model": "Gallardo LP 550-2 Spyder",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/lam-01-bk0032-01p.jpg",
+        "year": 2012,
+        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
+        "price": 4300,
+        "available": false
+    },
+    {
+        "id": 11,
+        "brand": "LandRover",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Logo-Land-Rover.png",
+        "model": "Range Rover Evoque",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-50-iz0687-01p.jpg",
+        "year": 2015,
+        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
+        "price": 4300,
+        "available": true
+    },
+    {
+        "id": 12,
+        "brand": "LandRover",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Logo-Land-Rover.png",
+        "model": "Defender 110 SW SE SUV",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/02/aut-15-iz0853-01p.jpg",
+        "year": 2013,
+        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
+        "price": 4300,
+        "available": false
     }
 ]

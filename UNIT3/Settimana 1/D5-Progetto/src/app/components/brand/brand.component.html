@@ -1,9 +1,9 @@
 <div class="container my-4">
-    <div class="row border-bottom ">
+    <div class="row border-bottom pb-3 ">
         <h2 class="text-center">I nostri marchi</h2>
-        <div class="justify-content-around d-flex align-items-center ">
+        <div class="justify-content-around d-flex align-items-center mt-4">
             <div *ngFor="let item of logo">
-                <a class="nav-link active " [routerLink]="['/',item.brand.toLowerCase()]" aria-current="page"><img src="{{item.brandLogo}}" alt="" ></a>
+                <a class="nav-link active" [routerLink]="['/',item.brand.toLowerCase()]" aria-current="page"><img src="{{item.brandLogo}}" alt="" ></a>
             </div>
         </div>
     </div>
