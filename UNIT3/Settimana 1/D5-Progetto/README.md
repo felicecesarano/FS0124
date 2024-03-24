@@ -22,7 +22,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
  _1. INDEX_
 
-[![Watch the video]()](https://github.com/felicecesarano/FS0124/assets/157897660/3de9dfc1-2c11-4f4d-a865-2be7febac142)
+[![Watch the video]()](https://github.com/felicecesarano/FS0124/assets/157897660/f13fe7b3-29b7-4817-ba32-e861ef949081)
 
 <br>
 
@@ -36,7 +36,7 @@ Le card che mostrano le carss sono randomizzate, quindi cambiano ogni volta che 
  2. _BRAND PAGINA_
 
   
-![feli2](https://github.com/felicecesarano/FS0124/assets/157897660/301ea65a-e81e-4357-aebf-4d53606f1f14)
+![Brand](https://github.com/felicecesarano/FS0124/assets/157897660/301ea65a-e81e-4357-aebf-4d53606f1f14)
 
 <br>
 
@@ -45,19 +45,30 @@ La seconda pagina, possiamo visualizzare le carss disponibili per il brand scelt
 </div>
 
 
+<br> 
 
  3. _DETTAGLI PAGINA_
 
-[![Watch the video]()](https://github.com/felicecesarano/FS0124/assets/157897660/fe6d2537-2f8a-4ab3-a1fb-c515cbe391af)
+[![Watch the video]()](https://github.com/felicecesarano/FS0124/assets/157897660/82da2a55-2073-4a7c-959f-48469b93f1c7)
+
 
 
 <br>
+
 
 <div  align="center" >
 La terza pagina, qui possiamo osservare i dettagli delle singole auto. Possiamo notare il colore di background del logo cambiare a seconda del brand.  
 </div>
 
+<br> 
+
+<h2> Profili social </h2>
+
 <a href="https://www.linkedin.com/in/felice-cesarano-570049233/"> ![Proflilo Linkedin](https://img.shields.io/badge/linkedin-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=%230A66C2&labelColor=white&color=black) </a> 
+
+<a href="https://www.instagram.com/cciracan/"> ![Profilo Instagram](https://img.shields.io/badge/instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=%23E4405F&labelColor=white&color=black)
+ </a> 
+
 
 
 
