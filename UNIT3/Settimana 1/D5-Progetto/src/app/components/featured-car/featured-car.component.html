@@ -10,11 +10,11 @@
         <div [ngClass]="{
             'bg-danger': !item.available,
             'bg-success': item.available
-          }" class="card-body text-center rounded-bottom">
-          <h4 class="card-title mb-3">{{ item.brand }} {{ item.model }}</h4>
+          }" class="card-body text-center rounded-bottom px-2">
+          <h4 class="card-title mb-3">{{ item.model }}</h4>
           <div>
             <span class="me-2 bg-white rounded  px-2 py-1 fw-bold">ANNO: <span class="fw-lighter">{{ item.year }}</span></span>
-            <span class="bg-white rounded  px-2 py-1 fw-bold">PREZZO: <span class="fw-lighter">{{ item.price }}€</span></span>
+            <span class="bg-white rounded px-2 py-1 fw-bold">PREZZO: <span class="fw-lighter">{{ item.price }}€</span></span>
           </div>
           <div class="mt-2 mb-3">
             <span class="bg-white rounded  px-2 py-1 fw-bold">PRONTA CONSEGNA: <span class="fw-lighter">{{ item.available ? "SI" : "NO"}}</span></span>

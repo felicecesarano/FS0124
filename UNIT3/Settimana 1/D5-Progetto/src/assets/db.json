@@ -1,28 +1,6 @@
 [
     {
         "id": 1,
-        "brand": "Fiat",
-        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/02/Logo-Fiat-600x338.png",
-        "model": "500L",
-        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-51-iz0284-01p.jpg",
-        "body": "Monovolume dal muso e dalla sigla che evocano la citycar 500, deriva in realtà dalla Punto (ma con sostanziali novità). In rapporto alle dimensioni esterne, che le permettono di muoversi agevolmente anche in città, lo spazio disponibile è davvero abbondante e, oltretutto, ben sfruttato. Il piccolo diesel 1.3 da 84 CV consuma poco e assicura prestazioni dignitose, ma a volte fatica contro i 1315 kg di massa in ordine di marcia. Discreta la dotazione di serie.",
-        "year": 2015,
-        "price": 7500,
-        "available": false
-    },
-    {
-        "id": 2,
-        "brand": "Fiat",
-        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/02/Logo-Fiat-600x338.png",
-        "model": "500 Abarth",
-        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-51-iz0271-01p.jpg",
-        "year": 2010,
-        "body": "Con il frontale dalle aggressive prese d’aria e le ruote in lega di 16 o 17 pollici, le ABARTH 595 e 695 non passano certo inosservate. La caratterizzazione sportiva dell'abitacolo è altrettanto evidente, grazie ai sedili molto avvolgenti (ma posti un po' troppo in alto), alla presenza del manometro della pressione del turbo e alla pedaliera in alluminio a vista. La Fiat 500 reinterpretata secondo la filosofia Abarth monta un vigoroso quattro cilindri 1.4 turbo (non moderno: ormai, nel gruppo Stellantis, lo monta solo questa sportivetta), l’assetto ribassato e le sospensioni irrigidite: scattante e veloce, sfoggia un’ottima tenuta di strada. Per contro, il comfort non è il massimo (le buche si sentono e il pur piacevole rombo del motore è evidente) e il prezzo - considerate anche le notevoli possibilità di personalizzazione a pagamento - va considerato da amatore. La principale differenza tecnica fra le 595 e le 695 è la potenza, dovuta a piccole variazioni al motore (incluso un diverso impianto di scarico).",
-        "price": 3500,
-        "available": true
-    },
-    {
-        "id": 3,
         "brand": "Ford",
         "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Ford-Logo-600x338.png",
         "model": "Taurus",
@@ -33,7 +11,7 @@
         "available": false
     },
     {
-        "id": 4,
+        "id": 2,
         "brand": "Ford",
         "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Ford-Logo-600x338.png",
         "model": "Focus",
@@ -41,6 +19,28 @@
         "year": 2014,
         "body": "La Ford Focus III Hatchback Restyling 2014 è una vettura compatta a 5 porte prodotta dalla casa automobilistica americana Ford.Il restyling del 2014 ha apportato alcune modifiche estetiche al design della vettura, compreso un nuovo frontale, una griglia più grande e un paraurti posteriore ridisegnato.Il modello 1.0 EcoBoost 100 CV S-S fa riferimento al motore a benzina turbo da 1,0 litri, che eroga una potenza di 100 cavalli (74 kW) e dispone di un sistema Start-Stop (S-S) per il risparmio di carburante e la riduzione delle emissioni.La vettura è disponibile con un cambio manuale a 6 marce o con un cambio automatico a doppia frizione a 6 marce (disponibile solo per alcuni mercati).Alcune delle caratteristiche standard della vettura includono il controllo automatico della climatizzazione, il sistema di infotainment Ford SYNC, il sistema di navigazione satellitare, il cruise control e il sistema di monitoraggio della pressione dei pneumatici.La Ford Focus III Hatchback Restyling 2014 con il motore 1.0 EcoBoost 100 CV S-S è una vettura efficiente e affidabile, ideale per chi cerca una vettura compatta ma spaziosa e dotata di molte funzionalità e tecnologie avanzate.",
         "price": 9700,
+        "available": true
+    },
+    {
+        "id": 3,
+        "brand": "Fiat",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/02/Logo-Fiat-600x338.png",
+        "model": "500L",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-51-iz0284-01p.jpg",
+        "body": "Monovolume dal muso e dalla sigla che evocano la citycar 500, deriva in realtà dalla Punto (ma con sostanziali novità). In rapporto alle dimensioni esterne, che le permettono di muoversi agevolmente anche in città, lo spazio disponibile è davvero abbondante e, oltretutto, ben sfruttato. Il piccolo diesel 1.3 da 84 CV consuma poco e assicura prestazioni dignitose, ma a volte fatica contro i 1315 kg di massa in ordine di marcia. Discreta la dotazione di serie.",
+        "year": 2015,
+        "price": 7500,
+        "available": false
+    },
+    {
+        "id": 4,
+        "brand": "Fiat",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/02/Logo-Fiat-600x338.png",
+        "model": "500 Abarth",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-51-iz0271-01p.jpg",
+        "year": 2010,
+        "body": "Con il frontale dalle aggressive prese d’aria e le ruote in lega di 16 o 17 pollici, le ABARTH 595 e 695 non passano certo inosservate. La caratterizzazione sportiva dell'abitacolo è altrettanto evidente, grazie ai sedili molto avvolgenti (ma posti un po' troppo in alto), alla presenza del manometro della pressione del turbo e alla pedaliera in alluminio a vista. La Fiat 500 reinterpretata secondo la filosofia Abarth monta un vigoroso quattro cilindri 1.4 turbo (non moderno: ormai, nel gruppo Stellantis, lo monta solo questa sportivetta), l’assetto ribassato e le sospensioni irrigidite: scattante e veloce, sfoggia un’ottima tenuta di strada. Per contro, il comfort non è il massimo (le buche si sentono e il pur piacevole rombo del motore è evidente) e il prezzo - considerate anche le notevoli possibilità di personalizzazione a pagamento - va considerato da amatore. La principale differenza tecnica fra le 595 e le 695 è la potenza, dovuta a piccole variazioni al motore (incluso un diverso impianto di scarico).",
+        "price": 3500,
         "available": true
     },
     {
@@ -72,8 +72,8 @@
         "model": "F-12 Berlinetta",
         "modelImage": "https://www.kimballstock.com/pix/car/p/06/frr-04-rk0703-01p.jpg",
         "year": 2014,
-        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
-        "price": 4300,
+        "body": "La nuova Ferrari F12berlinetta non è solo la granturismo di serie più veloce mai costruita a Maranello, ma è anche quella che più sfrutta l’aerodinamica: ingegneri e designer dei centri stile di Ferrari e Pininfarina hanno lavorato a braccetto per dar vita a forme sinuose, che non sono solo un piacere per gli occhi, ma servono a ridurre la resistenza aerodinamica (il Cx è di 0,299) e a schiacciare l’auto a terra al crescere della velocità (a 200 km/h la casa del Cavallino dichiara un carico aerodinamico di 230 kg). Così migliorano stabilità e tenuta di strada. A questo scopo, nel frontale (all’altezza dei parafanghi) spiccano i due convogliatori che deviano l’aria dal cofano verso le fiancate. Dietro, invece, ci pensano la coda con l’originale forma a “T”, il grande estrattore (che al centro ha il retronebbia a led, ispirato alle luci “anti-pioggia” delle Formula1) e gli sfoghi sopra i muscolosi passaruota.",
+        "price": 277000,
         "available": false
     },
     {
@@ -83,52 +83,52 @@
         "model": "599 GTO",
         "modelImage": "https://www.kimballstock.com/pix/car/p/06/frr-09-rk0081-01p.jpg",
         "year": 2011,
-        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
-        "price": 4300,
+        "body": " La 599 GTO deriva direttamente dalla 599XX (la versione solo “da pista” di questa Ferrari) e, come lei, è molto più potente e molto più leggera dell’auto di serie dalla quale nasce. La casa, infatti, dichiara che il V12 da 6 litri ora può erogare 670 CV, mentre il peso è sceso a 1605 kg (1495 a secco): 85 kg in meno della 599 standard. Il merito è da ricercarsi nell’ampio uso di materiali nobili usate, ma anche in “raffinatezze” come i vetri e le lamiere più sottili e freni carbo-ceramici più leggeri.",
+        "price": 260000,
         "available": true
     },
     {
         "id": 9,
-        "brand": "Lamborghini",
-        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/logo-Lamborghini.png",
-        "model": "Aventador",
-        "modelImage": "https://www.kimballstock.com/pix/car/p/06/lam-01-rk0775-01p.jpg",
-        "year": 2012,
-        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
-        "price": 4300,
-        "available": true
-    },
-    {
-        "id": 10,
-        "brand": "Lamborghini",
-        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/logo-Lamborghini.png",
-        "model": "Gallardo LP 550-2 Spyder",
-        "modelImage": "https://www.kimballstock.com/pix/car/p/06/lam-01-bk0032-01p.jpg",
-        "year": 2012,
-        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
-        "price": 4300,
-        "available": false
-    },
-    {
-        "id": 11,
         "brand": "LandRover",
         "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Logo-Land-Rover.png",
         "model": "Range Rover Evoque",
         "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-50-iz0687-01p.jpg",
         "year": 2015,
-        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
-        "price": 4300,
+        "body": "Anche se le linee sono molto vicine a quelle del modello pensionato nel 2018, questa seconda generazione della RANGE ROVER EVOQUE è del tutto diversa: della vecchia sono state riprese solo le cerniere delle porte e parte della meccanica. Molto elegante e curata, ha le maniglie di apertura delle quattro porte a filo della carrozzeria: fuoriescono solo quando servono. Invariata la lunghezza “a prova di città” (437 cm), mentre si sono guadagnati un paio di centimetri per le gambe di chi sta dietro (anche chi è alto 190 cm sul divano non sta scomodo) e qualche litro per il bagagliaio (di forma regolare ma non proprio generoso). Un bel passo avanti è stato fatto per le finiture: convincono montaggi e materiali, che possono essere anche eco-compatibili. Al posto della pelle, la Land Rover offre dei pregiati rivestimenti in tessuto fatto con fibre ricavate dall’eucalipto oppure simili al velluto e realizzati con lana e bottigliette in plastica riciclate (ne vengono utilizzate 53 per ogni auto). Nel 2023 è stato introdotto un aggiornamento che ha riguardato più che altro la plancia: il cruscotto è digitale e la semplice consolle ospita un display di 11,4 (posto un po' in basso). L'abitacolo è accogliente, e in più il comfort dinamico (insonorizzazione e capacità di filtrare lo sconnesso) è molto buono. I motori sono dei quattro cilindri a benzina o a gasolio, con potenze da 160 CV fino a 309. La diesel da 163 cavalli è l'unica che si può avere col cambio manuale e le ruote motrici solo anteriori; tutte le altre RANGE ROVER EVOQUE dispongono di un’efficiente trazione integrale e della trasmissione automatica, e sono ibride (si tratta di sistemi mild, oppure, nel caso delle P300e, plug-in). In generale, il peso elevato dell'auto influisce su prestazioni e consumi, che meritano un giudizio solo discreto in rapporto alla potenza.",
+        "price": 39000,
         "available": true
     },
     {
-        "id": 12,
+        "id": 10,
         "brand": "LandRover",
         "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Logo-Land-Rover.png",
         "model": "Defender 110 SW SE SUV",
         "modelImage": "https://www.kimballstock.com/pix/car/p/02/aut-15-iz0853-01p.jpg",
         "year": 2013,
-        "body": "L'Audi A3 8V 1.4 TFSI 122 CV Attraction è un'auto a 5 porte di fascia media prodotta da Audi nel 2012. Il modello Attraction è il livello di allestimento base per l'Audi A3 8V.  Il motore è un 1.4 litri a quattro cilindri con tecnologia TFSI (iniezione diretta di carburante e sovralimentazione mediante turbocompressore), in grado di sviluppare una potenza di 122 CV e una coppia di 200 Nm. La vettura ha una trasmissione manuale a 6 velocità e trazione anteriore. La velocità massima raggiungibile è di circa 203 km/h e l'accelerazione da 0 a 100 km/h richiede circa 9 secondi. Dal punto di vista delle dimensioni, l'Audi A3 8V 1.4 TFSI 122 CV Attraction misura 4,24 metri di lunghezza, 1,79 metri di larghezza e 1,42 metri di altezza.Il peso a vuoto è di circa 1.200 kg. Per quanto riguarda gli equipaggiamenti, l'allestimento Attraction prevede il sistema di climatizzazione manuale, il sistema audio con CD e MP3, il computer di bordo, il controllo della velocità di crociera, il volante multifunzione in pelle e il sistema di infotainment MMI con display da 5,8 pollici.",
-        "price": 4300,
+        "body": "Si chiama Defender, proprio come una leggenda delle fuoristrada: è l’erede della 4x4 britannica nata nel 1948 come Land Rover (poi il nome passerà al marchio), un modello che, nei suoi 68 anni di storia, sarà prodotto in oltre due milioni di esemplari. Destinati al tempo libero, al lavoro duro, alle missioni della Croce Rossa, a impieghi militari in varie parti del mondo (persino in Italia, dov’è stata una delle auto di punta delle nostre forze armate), pronta all’uso ovunque ci fosse un sentiero impervio da affrontare, e superare. Uscita di produzione nel 2016 l’ultima Defender vecchia maniera, ecco la nuova. Che porta senza complessi d’inferiorità un nome impegnativo, e soddisfa pienamente le aspettative maturate in questi anni. Ricordiamo che la presentazione del primo concept (qui per saperne di più) ebbe luogo al Salone di Francoforte del 2011 (proprio così: gli inglesi lavoravano da un pezzo al progetto) e che per il debutto in società del modello di serie si è dovuto attendere il settembre 2019, sempre sugli stand del Salone tedesco. Il lancio commerciale nei diversi Paesi europei è dei mesi successivi ed è avvenuto un po’ in sordina, complicato anche dal problema covid. ",
+        "price": 34750,
+        "available": false
+    },
+    {
+        "id": 11,
+        "brand": "Lamborghini",
+        "brandLogo": "https://www.gruppolautomobile.it/img/brand/lamborghini.png",
+        "model": "Aventador",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/lam-01-rk0775-01p.jpg",
+        "year": 2012,
+        "body": "La LAMBORGHINI AVENTADOR è una vistosa supercar emiliana a due posti secchi a trazione integrale perfetta per chi vuole il massimo. Il nome dell’erede della Murciélago omaggia, come da tradizione, un celebre toro: uno che si distinse per coraggio durante una corrida a Saragozza nel 1993. Un mostro brutale inadatto agli amanti dell’understatement: le porte che si aprono verso l’alto sono scenografiche ma poco pratiche e, unite al tetto basso, penalizzano l’accessibilità. Una sportiva (offerta in due varianti di carrozzeria: Coupé e Roadster) “vecchio stile” che ha rifuggito le ultime tendenze dell’automotive rinunciando all’alimentazione ibrida e alla sovralimentazione. Le uniche concessioni alla modernità si trovano nel telaio della LAMBORGHINI AVENTADOR, una scultura in acciaio e fibra di carbonio rivestita in alluminio, e nel retrotreno sterzante. Il monumentale motore - montato in posizione centrale - è un 6.5 V12 aspirato a benzina: un propulsore lanciato nel lontano 2011 con 700 CV e arrivato a toccare quota 780 CV nel 2022 con l’ultima evoluzione Ultimae. Nel mezzo un mare di versioni e configurazioni: tra le più importanti segnaliamo la variante scoperta introdotta nel 2013, la Superveloce del 2015 con 750 CV e la S del 2016, in pratica un restyling della supersportiva di Sant’Agata Bolognese.",
+        "price": 346249,
+        "available": true
+    },
+    {
+        "id": 12,
+        "brand": "Lamborghini",
+        "brandLogo": "https://www.gruppolautomobile.it/img/brand/lamborghini.png",
+        "model": "Gallardo LP 550-2",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/lam-01-bk0032-01p.jpg",
+        "year": 2012,
+        "body": "Il motore della Lamborghini Gallardo LP 550-2 Spyder è il noto 5.2 V10 aspirato, qui nella configurazione meno potente da  550 CV a 8.000 giri e 540 Nm di coppia a 6.500 giri: è abbinato al cambio manuale a sei marce e a un differenziale autobloccante meccanico che ripartisce la coppia sulle ruote posteriori. Secondo la Lamborghini, la LP 550-2 Spyder raggiunge i 319 km/h, scatta da 0 a 100 km/h in 4,2 secondi e copre lo 0-200 km/h in 13,4 secondi. La percorrenza media dichiarata è di 6,8 km/l, mentre 354 g/km è la quantità di CO2 emessa.",
+        "price": 184000,
         "available": false
     }
 ]

@@ -1,21 +1,23 @@
 <div class="container-fluid mb-5">
-    <div class="col-8 offset-2 mt-5" *ngFor="let item of carDetails"> 
-      <div class="text-center" >
-        <h1 >{{item.model}}</h1>
-        <img src="{{item.modelImage}}" alt="">
+  <div class="col-8 offset-2 mt-5" *ngFor="let item of carDetails">
+    <div class="text-center">
+      <h1>{{item.model}}</h1>
+      <img src="{{item.modelImage}}" alt="">
+    </div>
+    <div class="card mb-2">
+      <div class="card-header text-center"
+        [ngClass]="{'bgFiat': item.brand == 'Fiat', 'bgAudi': item.brand == 'Audi', 'bgFord': item.brand == 'Ford', 'bgFerrari': item.brand == 'Ferrari', 'bgLamborghini': item.brand == 'Lamborghini', 'bgLandRover': item.brand == 'LandRover'}">
+        <img src="{{item.brandLogo}}" alt="">
       </div>
-        <div class="card mb-2">
-          <div class="card-header text-center" [ngClass]="{'bgFiat': item.brand == 'Fiat', 'bgAudi': item.brand == 'Audi', 'bgFord': item.brand == 'Ford'}">
-            <img src="{{item.brandLogo}}" alt="">
-          </div>
-          <div class="card-body">
-            <h3 class="mb-4">Dettagli Auto</h3>
-            <p class="card-text fs-5">{{ item.body }}</p>
-            <div class="d-flex justify-content-between mt-3">
-              <span class="bg-primary rounded px-2 py-1 text-white">Prezzo: {{item.price}}€</span>
-              <span [ngClass]="{'bg-success': item.available, 'bg-danger': !item.available}" class="text-white rounded px-2 py-1">PRONTA CONSEGNA:{{ item.available ? "SI" : "NO"}}</span>
-            </div>
-          </div>
+      <div class="card-body">
+        <h3 class="mb-4">Dettagli Auto</h3>
+        <p class="card-text fs-5">{{ item.body }}</p>
+        <div class="d-flex justify-content-between mt-3">
+          <span class="bg-primary rounded px-2 py-1 text-white">Prezzo: {{item.price}}€</span>
+          <span [ngClass]="{'bg-success': item.available, 'bg-danger': !item.available}"
+            class="text-white rounded px-2 py-1">PRONTA CONSEGNA:{{ item.available ? "SI" : "NO"}}</span>
         </div>
+      </div>
     </div>
   </div>
+</div>
