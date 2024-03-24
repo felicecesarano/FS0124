@@ -1,27 +1,63 @@
-# D5Progetto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
+<div  align="center" >
+ <img src="https://gabrieleromanato.com/content/uploads/2023/12/angular-logo-1.png" width="400" height="100" /> 
 
-## Development server
+  This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12. 
+</div>
+
+
+<h2 > Development server </h2>
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h3> Sono state utilizzati: </h3>
 
-## Build
+> ![Static Badge](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&labelColor=black)  ![Static Badge](https://img.shields.io/badge/SCSS-%23CC6699?style=for-the-badge&logo=SASS&labelColor=black)
+   ![Static Badge](https://img.shields.io/badge/Bootstrap-%237952B3?style=for-the-badge&logo=Bootstrap&labelColor=black)   ![Static Badge](https://img.shields.io/badge/TypeScript-%233178C6?style=for-the-badge&logo=typescript&labelColor=black)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<br> 
 
-## Running unit tests
+<h2 > Come funziona </h2>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ _1. INDEX_
 
-## Running end-to-end tests
+[![Watch the video]()](https://github.com/felicecesarano/FS0124/assets/157897660/3de9dfc1-2c11-4f4d-a865-2be7febac142)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<br>
 
-## Further help
+<div  align="center" >
+La prima pagina, rappresenta l'interfaccia dove i marchi vengono illustrati. Cliccando sui marchi dei brand, veniamo direttamente indirizzati alla pagina dei brand stessi. 
+Le card che mostrano le carss sono randomizzate, quindi cambiano ogni volta che torniamo alla home. 
+</div>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<br>
+
+ 2. _BRAND PAGINA_
+
+  
+![feli2](https://github.com/felicecesarano/FS0124/assets/157897660/301ea65a-e81e-4357-aebf-4d53606f1f14)
+
+<br>
+
+<div  align="center" >
+La seconda pagina, possiamo visualizzare le carss disponibili per il brand scelto. Possiamo verificare la disponibilità della macchina tramite il colore della card o consultando "pronta consegna" . 
+</div>
+
+
+
+ 3. _DETTAGLI PAGINA_
+
+[![Watch the video]()](https://github.com/felicecesarano/FS0124/assets/157897660/fe6d2537-2f8a-4ab3-a1fb-c515cbe391af)
+
+
+<br>
+
+<div  align="center" >
+La terza pagina, qui possiamo osservare i dettagli delle singole auto. Possiamo notare il colore di background del logo cambiare a seconda del brand.  
+</div>
+
+<a href="https://www.linkedin.com/in/felice-cesarano-570049233/"> ![Proflilo Linkedin](https://img.shields.io/badge/linkedin-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=%230A66C2&labelColor=white&color=black) </a> 
+
+
+
