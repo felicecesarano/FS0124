@@ -55,6 +55,7 @@ La seconda pagina, possiamo visualizzare le carss disponibili per il brand scelt
 
 <br>
 
+
 <div  align="center" >
 La terza pagina, qui possiamo osservare i dettagli delle singole auto. Possiamo notare il colore di background del logo cambiare a seconda del brand.  
 </div>
