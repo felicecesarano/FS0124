@@ -17,7 +17,7 @@
           </div>
         </div>
       </div>
-      <div *ngIf="selectedPost && selectedPost.id === post.id">
+      <div *ngIf="selectedPost && selectedPost.id === post.id" class="mb-2">
         <app-edit-post [post]="selectedPost" (postUpdated)="updatePost($event)"></app-edit-post>
       </div>
     </span>
