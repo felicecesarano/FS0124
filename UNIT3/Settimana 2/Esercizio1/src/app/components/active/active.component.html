@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <div class="col-8 offset-2">
+    <h1 class="text-center">Post Attivi</h1>
+    <span *ngFor="let post of posts">
+      <div *ngIf="!selectedPost || (selectedPost && selectedPost.id !== post.id)">
+        <div class="card mb-2" *ngIf="post.active">
+          <div class="card-header">
+            <span class="me-2">{{ post.tags }}</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.body }}</p>
+            <div>
+              <a [routerLink]="['/details', post.id]" class="btn btn-primary">Dettagli</a>
+              <button type="button" class="btn btn-danger ms-2" (click)="editPost(post)">EDIT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="selectedPost && selectedPost.id === post.id">
+        <app-edit-post [post]="selectedPost" (postUpdated)="updatePost($event)"></app-edit-post>
+      </div>
+    </span>
+  </div>
+</div>
