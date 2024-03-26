@@ -1,0 +1,14 @@
+<div class="container-fluid">
+    <div class="col-8 offset-2" *ngFor="let item of postsDetails"> 
+      <h1 class="text-center" >{{item.title}}</h1>
+        <div class="card mb-2">
+          <div class="card-header">
+            <span class="me-2 fw-bold">{{item.tags}}</span>
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">{{ item.body }}</p>
+            <h6>{{ item.active }}</h6>
+          </div>
+        </div>
+    </div>
+  </div>

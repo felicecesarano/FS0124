@@ -1,0 +1,28 @@
+<div class="container-fluid d-flex col-8 offset-2">
+  <div class="p-1 col-8">
+    <app-evidenza></app-evidenza>
+    <div>
+      <app-dettagli class="d-flex justify-content-between"></app-dettagli>
+    </div>
+  </div>
+  <div class="p-1 col-4">
+    <div class="px-4 py-3 mb-4 bg-body-tertiary rounded-3">
+      <div class="container-fluid">
+        <app-consigli></app-consigli>
+        <div>
+          <h5>Vedi anche:</h5>
+          <div class="card">
+            <div class="card-body py-1 px-3">
+              <a [routerLink]="['/active']">Post attivi</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body py-1 px-3">
+              <a [routerLink]="['/inactive']">Post inattivi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

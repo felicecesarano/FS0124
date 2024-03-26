@@ -1,0 +1,8 @@
+<div class="mb-3">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Title Post" [(ngModel)]="post.title">
+  </div>
+  <div class="mb-3">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Details Post" [(ngModel)]="post.body"></textarea>
+  </div>
+  <button class="btn btn-success" (click)="saveChanges()">Salva</button>
+  
