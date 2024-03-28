@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-favorite',
@@ -6,4 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./favorite.component.scss']
 })
 export class FavoriteComponent {
+
 }

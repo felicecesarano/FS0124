@@ -1,31 +1,10 @@
 <div class="container col-10 offset-1 d-flex">
-    <div class="col-8">
-      <div class="row row-cols-3">
-        <div class="card p-0 mb-2" *ngFor="let product of product">
-          <img src="{{ product.thumbnail }}" class="" alt="{{ product.title }}" >
-          <div class="card-body d-flex flex-column justify-content-between">
-            <h5 class="card-title">{{ product.title }}</h5>
-            <p class="card-text">{{ product.description }}</p>
-            <div class="justify-content-between d-flex">
-              <button type="button" class="btn btn-primary" (click)="addToCart(product)">{{ product.price }}€</button>
-              <button type="button" class="btn btn-outline-danger" (click)="addToFavorites(product)" [ngClass]="{'btn-danger': isProductInFavorites(product)}">
-                ❤️
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-3 offset-1">
-      <h3>Totale: {{ total }}€</h3>
-      <div *ngIf="cartItems.length > 0">
-        <ol>
-          <li *ngFor="let item of cartItems">
-            {{ item.productName }} - {{ item.price }}€
-            <button type="button" class="btn btn-sm btn-outline-danger" (click)="deleteFromCart(item)">X</button>
-          </li>
-        </ol>
-      </div>
+  <div class="col-8">
+    <div class="row row-cols-3">
+      <app-card-products [products]="products" *ngFor="let products of products" class="p-1"></app-card-products>
     </div>
   </div>
-  
+  <div class="col-3 offset-1">
+    <app-cart></app-cart>
+  </div>
+</div>

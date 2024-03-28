@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { FavoriteComponent } from './components/favorite/favorite.component';
+import { CardProductsComponent } from './components/card-products/card-products.component';
+import { CartComponent } from './components/cart/cart.component';
 
 const routes: Route[] = [
   {
@@ -22,9 +24,11 @@ const routes: Route[] = [
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     HomeComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    NavbarComponent,
+    CardProductsComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule,
