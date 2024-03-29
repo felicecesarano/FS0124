@@ -5,7 +5,7 @@
         </div>
         <div>
             <h5 class="m-0">{{ todo.todo }}</h5>
-            <p class="m-0">Assigned to: {{ getId(todo.userId).firstName }}</p>
+            <p class="m-0">Assigned to: {{ getId(todo.userId).firstName }} {{ getId(todo.userId).lastName }}</p>
         </div>
     </div>
 </ng-container>

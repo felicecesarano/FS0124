@@ -4,7 +4,7 @@
         <img [src]="getUser(todo.userId).image" alt="">
       </div>
       <div class="col-6">
-        <h3>{{ getUser(todo.userId).firstName }} {{ getUser(todo.userId).lastName }}</h3>
+        <h4>{{ getUser(todo.userId).firstName }} {{ getUser(todo.userId).lastName }}</h4>
         <p>{{ getUser(todo.userId).title }}</p>
         <div *ngFor="let todo of todo.todo" class="d-flex mb-2 p-2 rounded" [ngClass]="todo.completed ? 'bg-success-subtle' : 'bg-danger-subtle'">
           <div>
@@ -12,7 +12,6 @@
           </div>
           <div>
             <h5 class="m-0">{{ todo.todo }}</h5>
-            <p class="m-0">{{ getUser(todo.userId).firstName }}</p>
           </div>
         </div>
       </div>
