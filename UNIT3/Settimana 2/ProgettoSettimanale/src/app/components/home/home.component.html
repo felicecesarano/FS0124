@@ -1,4 +1,4 @@
 <form class="d-flex col-4 mb-3" role="search">
-    <input #searchInput class="form-control me-2" type="search" placeholder="Search" aria-label="Search" (input)="onSearchChange(searchInput.value)">
+    <input #searchInput class="form-control me-2 shadow" type="search" placeholder="Search" aria-label="Search" (input)="onSearchChange(searchInput.value)">
 </form>
 <app-all-todo *ngFor="let todo of filteredTodo()" [todo]="todo" [users]="getId(todo.userId)"></app-all-todo>

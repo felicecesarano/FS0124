@@ -1,4 +1,4 @@
-<div class="d-flex mb-2 p-2 rounded" [ngClass]="todo.completed ? 'bg-success-subtle' : 'bg-danger-subtle'">
+<div class="d-flex mb-2 p-2 rounded shadow-sm" [ngClass]="todo.completed ? 'bg-success-subtle' : 'bg-danger-subtle'">
     <div>
         <input type="checkbox" class="me-2" [checked]="todo.completed" (change)="toggleCompleted()">
     </div>
