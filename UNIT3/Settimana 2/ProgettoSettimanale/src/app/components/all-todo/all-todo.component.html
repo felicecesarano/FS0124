@@ -1,0 +1,9 @@
+<div class="d-flex mb-2 p-2 rounded" [ngClass]="todo.completed ? 'bg-success-subtle' : 'bg-danger-subtle'">
+    <div>
+        <input type="checkbox" class="me-2" [checked]="todo.completed" (change)="toggleCompleted()">
+    </div>
+    <div>
+        <h5 class="m-0">{{ todo.todo }}</h5>
+        <p class="m-0">Assigned to: {{ users.firstName }}</p>
+    </div>
+</div>

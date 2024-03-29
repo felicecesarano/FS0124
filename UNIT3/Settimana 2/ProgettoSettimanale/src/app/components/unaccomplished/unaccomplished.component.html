@@ -1,0 +1,11 @@
+<ng-container *ngFor="let todo of todo">
+    <div class="d-flex mb-2 p-2 rounded bg-danger-subtle" *ngIf="!todo.completed">
+        <div>
+            <input type="checkbox" class="me-2" [checked]="todo.completed" (change)="toggleCompleted(todo)">
+        </div>
+        <div>
+            <h5 class="m-0">{{ todo.todo }}</h5>
+            <p class="m-0">Assigned to: {{ getId(todo.userId).firstName }}</p>
+        </div>
+    </div>
+</ng-container>
