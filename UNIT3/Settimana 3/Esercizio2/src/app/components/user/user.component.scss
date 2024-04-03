@@ -1,0 +1,8 @@
+.cardTrasf {
+    transition: transform 0.3s;
+}
+
+.cardTrasf:hover,
+.cardTrasf:focus {
+    transform: scale(1.02);
+}

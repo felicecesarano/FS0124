@@ -1,0 +1,20 @@
+<div class="container border pt-2 mb-5 rounded shadow cardTrasf" *ngFor="let todo of todo">
+    <div class="d-flex">
+      <div class="col-4 d-flex align-items-end">
+        <img [src]="getUser(todo.userId).image" alt="">
+      </div>
+      <div class="col-6">
+        <h4>{{ getUser(todo.userId).firstName }} {{ getUser(todo.userId).lastName }}</h4>
+        <p>{{ getUser(todo.userId).title }}</p>
+        <div *ngFor="let todo of todo.todo" class="d-flex mb-2 p-2 rounded" [ngClass]="todo.completed ? 'bg-success-subtle' : 'bg-danger-subtle'">
+          <div>
+            <input type="checkbox" class="me-2" [checked]="todo.completed" (change)="toggleCompleted(todo)">
+          </div>
+          <div>
+            <h5 class="m-0">{{ todo.todo }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
