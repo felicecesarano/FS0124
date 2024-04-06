@@ -1,0 +1,68 @@
+<div *ngFor="let genre of genres">
+    <ng-container *ngIf="getMoviesByGenre(genre.id).length > 0">
+        <div id="carousel{{ genre.id }}" class="carousel slide mt-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="container-fluid">
+                    <h4 class="text-white">{{ genre.name }}</h4>
+                    <div class="row col-8 col-md-12">
+                        <div class="carousel-item active pe-0">
+                            <div class="d-md-flex ms-md-3">
+                                <!-- Utilizza ngFor per iterare attraverso i primi 6 film del genere -->
+                                <div *ngFor="let movie of getMoviesForCarousel(genre.id, 0, 6)" class="me-md-1">
+                                    <img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path"
+                                        class="d-block w-100 mb-1 opacity-75 hover-img col-md-2" alt="{{ movie.title }}"
+                                        (click)="openModal(movie)">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pe-0">
+                            <div class="d-md-flex ms-md-3">
+                                <!-- Utilizza ngFor per iterare attraverso i film del genere, escludendo i primi 6 -->
+                                <div *ngFor="let movie of getMoviesForCarousel(genre.id, 0, 6)" class="me-md-1">
+                                    <img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path"
+                                        class="d-block w-100 mb-1 opacity-75 hover-img col-md-2" alt="{{ movie.title }}"
+                                        (click)="openModal(movie)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev justify-content-start" type="button"
+                [attr.data-bs-target]="'#carousel' + genre.id" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next justify-content-end" type="button"
+                [attr.data-bs-target]="'#carousel' + genre.id" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </ng-container>
+</div>
+
+<div id="movieModal" class="modal bg rounded" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header p-0 rounded">
+                <img [src]="'https://image.tmdb.org/t/p/w500' + selectedMovie?.poster_path" alt="" class="rounded-top">
+            </div>
+            <div class="modal-body">
+                <p>{{ selectedMovie?.overview }}</p>
+            </div>
+            <div class="d-flex justify-content-between p-3" *ngIf="selectedMovie">
+                <button type="button" data-dismiss="modal" class="btn btn-outline-danger" (click)="closeModal()">
+                    ❌
+                </button>
+                <button type="button" data-dismiss="modal" class="btn"
+                class="btn {{ isFavorite(selectedMovie.id) ? 'btn-danger' : 'btn-outline-danger' }}"
+                *ngIf="selectedMovie && selectedMovie.id !== undefined" (click)="toggleFavorite(selectedMovie.id, selectedMovie.genre_ids[0])">
+                ❤️
+            </button>
+            
+            </div>
+
+        </div>
+    </div>
+</div>

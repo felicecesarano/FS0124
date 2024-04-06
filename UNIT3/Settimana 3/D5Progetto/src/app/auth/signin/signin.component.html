@@ -1,0 +1,25 @@
+<div class="bg ">
+    <div class="w-100 d-flex justify-content-center bg2">
+        <form #singinForm="ngForm" (ngSubmit)="onSubmit(singinForm)" class="w-25 rounded p-5 text-white">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="">
+            <h3 class="mb-5">Registrati</h3>
+            <div class="mb-3 ">
+                    <label for="name" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="name"  name="name" required ngModel>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" required ngModel>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required ngModel>
+            </div>
+            <button type="submit" class="btn btn-danger w-100" [disabled]="singinForm.invalid">Registrati</button>
+            <div class="mt-5">
+                <span class="text-white-50">Hai già un account Netflix? <a class="text-white text-decoration-none"
+                    [routerLink]="['/login']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Accedi.</a></span>
+            </div>
+        </form>
+    </div>
+</div>
