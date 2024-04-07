@@ -18,3 +18,17 @@ img{
   left: 550px;
     height: 50px;
 }
+
+@media screen and (max-width: 576px){
+
+
+    img{
+        left: 20px;
+    }
+    
+    form{
+        width: 50% !important;
+        margin-top: 125px;
+        margin-bottom: 125px;
+    }
+    } 

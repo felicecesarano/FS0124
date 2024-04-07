@@ -6,7 +6,7 @@
       <p class="card-text">{{ movie.overview.slice(0, 150) + '...' }}</p>
       <div>
         <button  class="btn btn-primary" (click)="openModal(movie)">Dettagli</button>
-        <button type="button" data-dismiss="modal" class="btn btn-danger float-end" (click)="toggleFavorite(movie.id)">❤️</button>
+        <button type="button" data-dismiss="modal" class="btn btn-danger float-md-end float-sm-start mt-sm-1" (click)="toggleFavorite(movie.id)">❤️</button>
       </div>
     </div>
   </div>

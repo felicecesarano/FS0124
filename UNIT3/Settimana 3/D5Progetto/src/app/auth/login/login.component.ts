@@ -13,7 +13,6 @@ export class LoginComponent {
   constructor(private authSrv: AuthService, private router: Router) { }
 
   login(form: NgForm) {
-    console.log(form.value);
     this.authSrv.login(form.value).subscribe(
       () => {
         form.reset();
