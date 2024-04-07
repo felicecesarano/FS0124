@@ -54,13 +54,11 @@ export class FavoritesComponent implements OnInit {
       console.error('Dati utente o genere non validi.');
       return;
     }
-  
     const userId = currentUser.user.id;
     const index = this.favorites.findIndex(favorite => favorite.movieId === movieId);
     if (index !== -1) {
       const favoriteId = this.favorites[index].id;
       this.favoritesSrv.removeFavorite(favoriteId).subscribe(() => {
-        // Rimozione completata, ricarica i preferiti
         this.getUserFavorites();
       });
     } else {

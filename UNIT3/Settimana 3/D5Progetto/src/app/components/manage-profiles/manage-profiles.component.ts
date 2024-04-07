@@ -8,7 +8,7 @@ import { AuthService } from 'src/app/auth/auth.service';
 })
 export class ManageProfilesComponent implements OnInit {
   currentUserArray: any[] = [];
-  newUserName: string = ''; // Aggiungi una variabile per memorizzare il nuovo nome dell'utente
+  newUserName: string = '';
 
   constructor(private authSrv: AuthService) { }
 

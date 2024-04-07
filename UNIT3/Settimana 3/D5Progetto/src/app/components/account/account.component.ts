@@ -7,16 +7,16 @@ import { AuthService } from 'src/app/auth/auth.service';
   styleUrls: ['./account.component.scss']
 })
 export class AccountComponent implements OnInit {
-  currentUserArray: any[] = []; // Array per memorizzare l'utente corrente
+  currentUserArray: any[] = [];
   newEmail: string = '';
-  showEmailForm: boolean = false; // Variabile per gestire lo stato di visualizzazione del form
+  showEmailForm: boolean = false;
 
   constructor(private authSrv: AuthService) { }
 
   ngOnInit(): void {
-    const currentUser = this.authSrv.getCurrentUser(); // Ottieni l'utente corrente
+    const currentUser = this.authSrv.getCurrentUser(); 
     if (currentUser) {
-      this.currentUserArray = Object.values(currentUser); // Converte le proprietà dell'oggetto in un array
+      this.currentUserArray = Object.values(currentUser);
       console.log(this.currentUserArray);
     } else {
       console.error("L'utente corrente è nullo.");
