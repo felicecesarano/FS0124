@@ -7,9 +7,16 @@ import { AuthService } from 'src/app/auth/auth.service';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
-constructor(private authSrv: AuthService){}
+  isAdmin: boolean = false; // Variabile per memorizzare se l'utente loggato è un amministratore
+  currentUser: string | null = null; // Variabile per memorizzare il nome dell'utente loggato
 
-logout(){
-  this.authSrv.logout();
-}
+  constructor(private authSrv: AuthService) {
+    const user = this.authSrv.getCurrentUser();
+    this.currentUser = user?.user?.name ?? null; // Ottieni il nome dell'utente dal servizio di autenticazione
+    this.isAdmin = user?.user?.isAdmin ?? false; // Controlla se l'utente è un amministratore
+  }
+
+  logout() {
+    this.authSrv.logout();
+  }
 }

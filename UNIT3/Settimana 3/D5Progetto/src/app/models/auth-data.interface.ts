@@ -3,6 +3,7 @@ export interface AuthData {
     user: {
         name: string,
         id: number,
-        email: string
+        email: string,
+        isAdmin: boolean
     }
 }

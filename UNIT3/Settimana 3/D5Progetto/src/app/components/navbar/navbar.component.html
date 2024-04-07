@@ -1,47 +1,65 @@
 <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid p-0">
-      <a class="navbar-brand" href="index.html"><img width="150px" class="logo" src="../../../assets/netflix_logo.png" alt=""></a>
-      <button class="navbar-toggler border border-secondary rounded" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-          class="bi bi-list text-white" viewBox="0 0 16 16">
-          <path fill-rule="evenodd"
-            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-        </svg>
-      </button>
-      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-       <div>
-           <ul class="navbar-nav mb-2 mb-lg-0">
-             <li class="nav-item">
-               <a class="nav-link  active text-white" [routerLink]="['/home']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link active text-white"  [routerLink]="['/mylist']">My List</a>
-             </li>
-            </ul>
-       </div>
-        <div class="d-flex align-items-center text-white">
-          <p class="m-0 me-3">KIDS</p>
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item dropdown me-3">
-              <a class="nav-link dropdown-toggle p-0 text-white" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item hov" href="editProfile.html">Felice
-                    Cesarano</a></li>
-                <li><a class="dropdown-item hov" href="editProfile.html">Manage Profiles</a></li>
-                <li><a class="dropdown-item hov" href="account.html">Account</a></li>
-                <li><a class="dropdown-item hov" href="#">Help Center</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item hov" (click)="logout()">Singout Netflix</a></li>
-              </ul>
-            </li>
-          </ul>
+  <div class="container-fluid p-0">
+    <a class="navbar-brand" href="index.html"><img width="150px" class="logo" src="../../../assets/netflix_logo.png"
+        alt=""></a>
+    <button class="navbar-toggler border border-secondary rounded" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list text-white"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+      </svg>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+      <div>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  active text-white" [routerLink]="['/home']" routerLinkActive="active"
+              [routerLinkActiveOptions]="{exact: true}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" [routerLink]="['/mylist']">My List</a>
+          </li>
+          <li class="nav-item" *ngIf="isAdmin">
+            <a class="nav-link active text-white" [routerLink]="['/users']">Users List</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex align-items-center text-white">
+        <div class="d-flex align-items-center me-3">
+          <svg class="me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-search" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+          </svg>
+          <p class="my-0 mx-3">KIDS</p>
+          <svg class="me-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-bell-fill" viewBox="0 0 16 16">
+            <path
+              d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901" />
+          </svg>
         </div>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown me-3">
+            <a class="nav-link dropdown-toggle p-0 text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item hov"  [routerLink]="['/account']">{{ currentUser }}</a>
+              </li>
+              <li><a class="dropdown-item hov" href="editProfile.html">Manage Profiles</a></li>
+              <li><a class="dropdown-item hov" [routerLink]="['/account']">Account</a></li>
+              <li><a class="dropdown-item hov" href="#">Help Center</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item hov" (click)="logout()">Singout Netflix</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>

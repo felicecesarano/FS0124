@@ -2,3 +2,21 @@
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+html, body {
+    overflow-x: hidden;
+  }
+ ::-webkit-scrollbar {
+    width: 9px; 
+  
+  }
+  
+ ::-webkit-scrollbar-thumb {
+    background-color: rgba(39, 39, 39, 0.678);
+    border-radius: 5px;
+  
+  }
+  
+ ::-webkit-scrollbar-track {
+    background-color: black;
+  }
+

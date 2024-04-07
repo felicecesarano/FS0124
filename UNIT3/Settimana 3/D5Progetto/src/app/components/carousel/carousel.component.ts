@@ -16,7 +16,7 @@ export class CarouselComponent {
   @Input() favorites: Favorites[] = [];
   selectedMovie: Movies | null = null;
 
-  constructor(private favoritesService: FavoritesService, private authSrv: AuthService) { }
+  constructor(private favoritesSrv: FavoritesService, private authSrv: AuthService) { }
 
   getMoviesByGenre(genre_ids: number): Movies[] {
     return this.movies.filter(movie => movie.genre_ids.includes(genre_ids));
@@ -43,7 +43,7 @@ export class CarouselComponent {
     document.getElementById('movieModal')!.style.display = 'none';
   }
   
-  toggleFavorite(movieId: number, genreId: number) {
+  toggleFavorite(movieId: number) {
     const currentUser = this.authSrv.getCurrentUser();
     if (!currentUser || currentUser.user.id === undefined) {
       console.error('Dati utente o genere non validi.');
@@ -55,10 +55,10 @@ export class CarouselComponent {
     if (index !== -1) {
       const favoriteId = this.favorites[index].id;
       this.favorites.splice(index, 1);
-      this.favoritesService.removeFavorite(favoriteId).subscribe();
+      this.favoritesSrv.removeFavorite(favoriteId).subscribe();
     } else {
       const newFavorite: Partial<Favorites> = { userId, movieId};
-      this.favoritesService.addFavorite(newFavorite).subscribe(value => {
+      this.favoritesSrv.addFavorite(newFavorite).subscribe(value => {
         this.favorites.push(value)
       });
     }

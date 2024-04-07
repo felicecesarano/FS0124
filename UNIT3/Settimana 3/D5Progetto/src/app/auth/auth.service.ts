@@ -7,6 +7,7 @@ import { catchError, tap } from 'rxjs/operators';
 import { Router } from '@angular/router';
 import { AuthData } from '../models/auth-data.interface';
 import { JwtHelperService } from '@auth0/angular-jwt';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -72,6 +73,12 @@ getCurrentUser(): AuthData | null {
   }
 }
 
+
+getAllUsers(): Observable<any[]> {
+  return this.http.get<any[]>(`${this.apiURL}users`).pipe(
+    catchError(this.errors)
+  );
+}
 
 
   private errors(err: any) {

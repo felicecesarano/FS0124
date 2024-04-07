@@ -16,6 +16,10 @@ import { TokenInterceptor } from './auth/token.interceptor';
 import { AuthGuard } from './auth/auth.guard';
 import { MylistComponent } from './components/mylist/mylist.component';
 import { FavoritesComponent } from './components/favorites/favorites.component';
+import { AccountComponent } from './components/account/account.component';
+import { ManageProfilesComponent } from './components/manage-profiles/manage-profiles.component';
+import { UsersListComponent } from './components/users-list/users-list.component';
+import { AdminGuard } from './auth/admin.guard';
 
 const routes: Route[] = [
   {
@@ -27,6 +31,21 @@ const routes: Route[] = [
     path: 'mylist',
     component: MylistComponent,
     canActivate: [AuthGuard]
+  },
+  {
+    path: 'account',
+    component: AccountComponent,
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'manage',
+    component: ManageProfilesComponent,
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'users',
+    component: UsersListComponent,
+    canActivate: [AdminGuard]
   },
   {
     path: 'login',
@@ -52,7 +71,11 @@ const routes: Route[] = [
     NavbarComponent,
     CarouselComponent,
     MylistComponent,
-    FavoritesComponent
+    FavoritesComponent,
+    AccountComponent,
+    ManageProfilesComponent,
+    UsersListComponent,
+
   ],
   imports: [
     BrowserModule,

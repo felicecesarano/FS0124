@@ -1,0 +1,24 @@
+<div class="bg-black min-vh-100">
+    <app-navbar></app-navbar>
+    <h1 class="text-center text-white">Utenti Registrati</h1>
+    <div class="container">
+        <table class="table">
+            <thead >
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Admin</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let users of users" class="table-dark">
+                    <th scope="row">{{users.id}}</th>
+                    <td>{{users.name}}</td>
+                    <td>{{users.email}}</td>
+                    <td>{{users.isAdmin}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

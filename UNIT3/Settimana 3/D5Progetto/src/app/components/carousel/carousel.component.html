@@ -57,7 +57,7 @@
                 </button>
                 <button type="button" data-dismiss="modal" class="btn"
                 class="btn {{ isFavorite(selectedMovie.id) ? 'btn-danger' : 'btn-outline-danger' }}"
-                *ngIf="selectedMovie && selectedMovie.id !== undefined" (click)="toggleFavorite(selectedMovie.id, selectedMovie.genre_ids[0])">
+                *ngIf="selectedMovie && selectedMovie.id !== undefined" (click)="toggleFavorite(selectedMovie.id)">
                 ❤️
             </button>
             

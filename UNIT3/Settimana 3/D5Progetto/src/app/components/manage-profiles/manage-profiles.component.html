@@ -1,0 +1,91 @@
+<div class="bg-black">
+    <header class="px-5 pt-3">
+        <a class="navbar-brand" href="index.html"><img src="assets/netflix_logo.png" alt="" width="150px"></a>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row col-4 offset-4">
+                <div class="border-bottom border-dark-subtle p-0 mb-3">
+                    <h1 class="display-1 title-page2 fw-semibold text-white">Edit Profile</h1>
+                </div>
+            </div>
+            <div class="row col-4 offset-4 mb-3">
+                <div class="p-0 mb-3 d-lg-flex flex-lg-wrap">
+                    <img src="assets/avatar.png" class="avatarEdit" alt="" width="160px">
+                    <div class="col-lg-5 offset-lg-1 border-bottom border-dark-subtle ">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control text-white bg-opacity-50 bg-white border-0"
+                                    id="username" name="username"
+                                    value="{{currentUserArray[1].name}}">
+                            </div>
+                        </form>
+                        <div>
+                            <h5 class="text-white-50">Language:</h5>
+                            <div class="dropdown mb-4">
+                                <button class="btn btn-balck border border-white text-white dropdown-toggle"
+                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    English
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item">Italiano</a></li>
+                                    <li><a class="dropdown-item">Español</a></li>
+                                    <li><a class="dropdown-item">Français</a></li>
+                                    <li><a class="dropdown-item">Română</a></li>
+                                    <li><a class="dropdown-item">Deutsch</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-4 offset-4">
+                <div class="border-bottom border-dark-subtle p-0 mb-3 col-lg-5 offset-lg-7">
+                    <h5 class="text-white-50 col-3">Maturity Settings:</h5>
+                    <button class="btn btn-dark fw-bold  rounded-0 text-white mb-4" type="button">
+                        ALL MATURITY SETTINGS
+                    </button>
+                    <p class="text-white">Show files for all maturity setting for this profile.</p>
+                    <button class="btn border border-white opacity-50 px-4 rounded-0 text-white mb-4" type="button">
+                        EDIT
+                    </button>
+                </div>
+            </div>
+            <div class="row col-4 offset-4">
+                <div class=" p-0 mb-3 col-lg-5 offset-lg-7">
+                    <h5 class="text-white-50 col-3">Autoplay Controls:</h5>
+                    <div class="form-check p-0">
+                        <input
+                            class="form-check-input border-dark-subtle bg-black rounded-0 fs-3 check shadow-none bg-transparent"
+                            type="checkbox" value="" id="flexCheckDefault">
+                        <p class="text-check col-7 offset-3 text-white"> Autoplay next episode in a series on all
+                            devices</p>
+                    </div>
+                    <div class="form-check p-0">
+                        <input
+                            class="form-check-input  border-dark-subtle bg-black rounded-0 fs-3 check shadow-none bg-transparent"
+                            type="checkbox" value="" id="flexCheckDefault2">
+                        <p class="text-check col-7 offset-3 text-white"> Autoplay next episode in a series on all
+                            devices</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-4 offset-4">
+                <div class="border-top border-dark-subtle p-0 mb-3 pt-lg-4 d-flex flex-wrap">
+                    <button
+                        class="btn border border-white bg-white px-4 rounded-0 text-dark shadow-none fw-bold me-lg-3 "
+                        type="button" >
+                        SAVE
+                    </button>
+                    <button class="btn border border-white opacity-50 px-4 rounded-0  text-white me-lg-3 "
+                        type="button">
+                        CANCEL
+                    </button>
+                    <button class="btn border border-white opacity-50 px-4 rounded-0 text-white" type="button">
+                        DELETE PROFILE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

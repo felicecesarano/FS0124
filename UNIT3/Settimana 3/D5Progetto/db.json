@@ -16,7 +16,8 @@
       "email": "cesarano.fc@gmail.com",
       "password": "$2a$10$fpczfGMLrfT6I.mWORNzdOIQbfrMqEH18M4wEjm4NqDAhG2vGjuZy",
       "name": "Felice Cesarano",
-      "id": 4
+      "id": 4,
+      "isAdmin": true
     },
     {
       "email": "vincenzo.cesarano92@gmail.com",
@@ -39,27 +40,7 @@
     {
       "userId": 4,
       "movieId": 578701,
-      "id": 53
-    },
-    {
-      "userId": 4,
-      "movieId": 567189,
-      "id": 54
-    },
-    {
-      "userId": 4,
-      "movieId": 804435,
-      "id": 55
-    },
-    {
-      "userId": 4,
-      "movieId": 726684,
-      "id": 56
-    },
-    {
-      "userId": 4,
-      "movieId": 527774,
-      "id": 57
+      "id": 29
     }
   ],
   "genres": [

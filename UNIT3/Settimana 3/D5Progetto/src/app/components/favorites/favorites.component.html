@@ -1,11 +1,30 @@
 <div *ngFor="let movie of movies">
-    <div class="card" style="width: 18rem;">
-      <img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path" class="card-img-top" alt="{{ movie.title }}">
-      <div class="card-body">
-        <h5 class="card-title">{{ movie.title }}</h5>
-        <p class="card-text">{{ movie.overview }}</p>
-        <a href="#" class="btn btn-primary">Dettagli</a>
+  <div class="card h-100 me-2" style="width: 15vw;">
+    <img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path" class="card-img-top" alt="{{ movie.title }}" height="60%">
+    <div class="card-body">
+      <h6 class="card-title">{{ movie.title }}</h6>
+      <p class="card-text">{{ movie.overview.slice(0, 150) + '...' }}</p>
+      <div>
+        <button  class="btn btn-primary" (click)="openModal(movie)">Dettagli</button>
+        <button type="button" data-dismiss="modal" class="btn btn-danger float-end" (click)="toggleFavorite(movie.id)">❤️</button>
       </div>
     </div>
   </div>
-  
+</div>
+
+<!-- Modale -->
+<div id="movieModal" class="modal bg rounded" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header p-0 rounded">
+        <img [src]="'https://image.tmdb.org/t/p/w500' + selectedMovie?.poster_path" alt="" class="rounded-top">
+      </div>
+      <div class="modal-body">
+        <p>{{ selectedMovie?.overview }}</p>
+      </div>
+      <div class="d-flex justify-content-between p-3" *ngIf="selectedMovie">
+        <button type="button" class="btn btn-outline-danger" (click)="closeModal()">Chiudi</button>
+      </div>
+    </div>
+  </div>
+</div>
