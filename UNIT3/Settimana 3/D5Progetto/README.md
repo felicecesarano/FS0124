@@ -1,27 +1,79 @@
-# D5Progetto
+<div  align="center" >
+ <img src="https://gabrieleromanato.com/content/uploads/2023/12/angular-logo-1.png" width="400" height="100" /> 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
+  This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12. 
+</div>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h2 > Development server </h2>
 
-## Code scaffolding
+Run `npm run fullstack` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+<h3> Sono state utilizzati: </h3>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+> ![Static Badge](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&labelColor=black)  ![Static Badge](https://img.shields.io/badge/SCSS-%23CC6699?style=for-the-badge&logo=SASS&labelColor=black)
+   ![Static Badge](https://img.shields.io/badge/Bootstrap-%237952B3?style=for-the-badge&logo=Bootstrap&labelColor=black)   ![Static Badge](https://img.shields.io/badge/TypeScript-%233178C6?style=for-the-badge&logo=typescript&labelColor=black)
 
-## Running unit tests
+<br> 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h2 > Come funziona </h2>
 
-## Running end-to-end tests
+ 1. Pagina di registrazione
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+![Registrazione](https://github.com/felicecesarano/FS0124/assets/157111990/fef95b3b-1b92-4af2-b9ae-9455dfbe6a20)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+<div  align="center" >
+Qui possiamo visualizzare la pagina di registrazione, inserendo tutti i campi richiesti verraà generato un nuovo utente nel JSON gestito da JSON-SERVER.
+</div>
+
+<br> 
+<br>
+
+ 2. Pagina di accesso
+
+![Accedi](https://github.com/felicecesarano/FS0124/assets/157111990/1103db17-e48e-49ff-b2b2-71f4ca4604d0)
+
+
+<div  align="center" >
+Dopo aver completato con successo la registrazione, saremo reindirizzati alla pagina di LogIn. Inserendo i dati utilizzati in precendenza, possiamo accedere ai vari contenuti.
+</div>
+
+<br> 
+<br>
+
+ 3. Home
+
+![Home](https://github.com/felicecesarano/FS0124/assets/157111990/88fb9859-e125-45af-a208-74ba19b826b3)
+
+
+<div  align="center" >
+Se le credenziali inserite risultano corrette, possiamo finalmente visualizzare la Home. Essa contiene tutti i film disponibili nel nostro server.
+</div>
+<br>
+<br>
+
+ 4. Dettagli Film
+
+![Home2](https://github.com/felicecesarano/FS0124/assets/157111990/3b6f69eb-532d-4819-bf2f-c91e423f4ad9)
+
+
+<div  align="center" >
+Cliccando su un film, apparirà una modale con tutti i dettagli dello stesso ed avremo la possibilità di aggiungerlo tra i preferiti.
+</div>
+<br> 
+<br>
+
+ 5. Preferiti
+
+![Preferiti](https://github.com/felicecesarano/FS0124/assets/157111990/70d927e5-8928-4b47-8544-108943ff0c0a)
+
+<div  align="center" >
+Dopo aver inserito un film nei preferiti, abbiamo l'apposita sezione per tenere traccia di tutti quelli selezionati. (Ogni utente ha la sua lista dei preferiti)
+</div>
+<br>
+
+<br>
+
