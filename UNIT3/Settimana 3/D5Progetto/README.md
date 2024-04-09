@@ -71,9 +71,31 @@ Cliccando su un film, apparirà una modale con tutti i dettagli dello stesso ed 
 ![Preferiti](https://github.com/felicecesarano/FS0124/assets/157111990/70d927e5-8928-4b47-8544-108943ff0c0a)
 
 <div  align="center" >
-Dopo aver inserito un film nei preferiti, abbiamo l'apposita sezione per tenere traccia di tutti quelli selezionati. (Ogni utente ha la sua lista dei preferiti)
+Dopo aver inserito un film nei preferiti, abbiamo l'apposita sezione per tenere traccia di tutti quelli selezionati. <br>
+  (Ogni utente ha la sua lista dei preferiti)
 </div>
-<br>
 
 <br>
+<br>
 
+ 6. Funzionamento App
+
+https://github.com/felicecesarano/FS0124/assets/157111990/a2bf1aaa-9a4b-4ccf-89a1-083ee30e1dc0
+
+
+<div  align="center" >
+Dal video è possibile capire che ci sono componenti protetti, per veisualizzarli bisogna che ci siano le giuste condizioni. Possiamo vedere che per visualizzare la Home è necessario effettuare il LogIn. <br>
+Una volta effettuato il Login possiamo accedere anche all'area privata, possiamo visualizzare la nostra mail ed il nome inserito in fase di registrazione tramite le apposite sezioni. <br>
+Oltre ai semplici users, ci sono anche gli admin. Solo quest'ultimi possono visualizzare la lista degli utenti registrati. (Per verificare usare email: cesarano.fc@gmail.com password: Felice)
+</div>
+
+<br>
+<br>
+
+
+<h2> Profili social </h2>
+
+<a href="https://www.linkedin.com/in/felice-cesarano-570049233/"> ![Proflilo Linkedin](https://img.shields.io/badge/linkedin-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=%230A66C2&labelColor=white&color=black) </a> 
+
+<a href="https://www.instagram.com/cciracan/"> ![Profilo Instagram](https://img.shields.io/badge/instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=%23E4405F&labelColor=white&color=black)
+ </a> 
