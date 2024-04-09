@@ -22,7 +22,7 @@ export class AdminGuard implements CanActivate {
           }
           setTimeout(() => {
             alert("Devi essere un amministratore per accedere a questa pagina");
-          }, 600);
+          }, 1000);
           return this.router.createUrlTree(['/home']);
         })
       );
